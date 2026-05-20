@@ -1,0 +1,29 @@
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#1a1714"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="360" fill="#fdfcfb"/>
+<text x="350" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">The cash conversion cycle as a timeline</text>
+<text x="350" y="54" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">DPO of 35 days shortens net cash exposure to 85 days.</text>
+<line x1="80" y1="200" x2="620" y2="200" stroke="#1a1714" stroke-width="1.5"/>
+<path d="M614 196 L622 200 L614 204 Z" fill="#1a1714"/>
+<line x1="120" y1="190" x2="120" y2="210" stroke="#1a1714" stroke-width="1.5"/>
+<text x="120" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714" text-anchor="middle">Day 0</text>
+<text x="120" y="168" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714" text-anchor="middle">Pay materials</text>
+<line x1="320" y1="190" x2="320" y2="210" stroke="#1a1714" stroke-width="1.5"/>
+<text x="320" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714" text-anchor="middle">Day 60</text>
+<text x="320" y="168" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714" text-anchor="middle">Sale</text>
+<line x1="520" y1="190" x2="520" y2="210" stroke="#1a1714" stroke-width="1.5"/>
+<text x="520" y="182" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714" text-anchor="middle">Day 120</text>
+<text x="520" y="168" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714" text-anchor="middle">Customer pays</text>
+<path d="M120 230 L120 250 L320 250 L320 230" stroke="#1a1714" stroke-width="1.5" fill="none"/>
+<text x="220" y="272" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">DIO = 60 days</text>
+<path d="M320 230 L320 250 L520 250 L520 230" stroke="#1a1714" stroke-width="1.5" fill="none"/>
+<text x="420" y="272" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">DSO = 60 days</text>
+<path d="M120 140 L120 120 L237 120 L237 140" stroke="#1a1714" stroke-width="1.5" fill="none" stroke-dasharray="4 3"/>
+<text x="178" y="108" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">DPO = 35 days</text>
+<text x="178" y="94" font-family="Georgia, 'Times New Roman', serif" font-size="9" font-style="italic" fill="#4a4540" text-anchor="middle">(supplier credit)</text>
+<text x="350" y="320" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714" text-anchor="middle">CCC = 60 + 60 − 35 = <tspan font-weight="bold">85 days</tspan> of net cash exposure</text>
+</svg>

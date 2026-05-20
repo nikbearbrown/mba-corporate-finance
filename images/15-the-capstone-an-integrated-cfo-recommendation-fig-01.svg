@@ -1,0 +1,35 @@
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#1a1714"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="480" fill="#fdfcfb"/>
+<text x="350" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">The four interdependent CFO decisions</text>
+<text x="350" y="54" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">Each decision constrains the other three. The capstone holds them all in tension at once.</text>
+<rect x="30" y="126" width="200" height="88" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="130" y="154" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">CAPITAL ALLOCATION</text>
+<text x="130" y="178" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#4a4540" text-anchor="middle">Plant 4 + Cardinal + WC</text>
+<rect x="430" y="126" width="200" height="88" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="530" y="154" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">CAPITAL STRUCTURE</text>
+<text x="530" y="178" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#4a4540" text-anchor="middle">Target debt-to-capital</text>
+<rect x="30" y="316" width="200" height="88" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="130" y="344" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">PAYOUT POLICY</text>
+<text x="130" y="368" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#4a4540" text-anchor="middle">Dividend + buyback</text>
+<rect x="430" y="316" width="200" height="88" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="530" y="344" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">RISK POSITION</text>
+<text x="530" y="368" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#4a4540" text-anchor="middle">Retain vs. transfer</text>
+<path d="M230 174 L430 174" stroke="#1a1714" stroke-width="1.2" fill="none" marker-end="url(#arrow)"/>
+<path d="M430 178 L230 178" stroke="#1a1714" stroke-width="1.2" fill="none" marker-end="url(#arrow)"/>
+<text x="330" y="158" font-family="Georgia, 'Times New Roman', serif" font-size="9" font-style="italic" fill="#4a4540" text-anchor="middle">consumes / limits</text>
+<path d="M126 214 L126 316" stroke="#1a1714" stroke-width="1.2" fill="none" marker-end="url(#arrow)"/>
+<path d="M134 316 L134 214" stroke="#1a1714" stroke-width="1.2" fill="none" marker-end="url(#arrow)"/>
+<path d="M526 214 L526 316" stroke="#1a1714" stroke-width="1.2" fill="none" marker-end="url(#arrow)"/>
+<path d="M534 316 L534 214" stroke="#1a1714" stroke-width="1.2" fill="none" marker-end="url(#arrow)"/>
+<path d="M230 356 L430 356" stroke="#1a1714" stroke-width="1.2" fill="none" marker-end="url(#arrow)"/>
+<path d="M430 360 L230 360" stroke="#1a1714" stroke-width="1.2" fill="none" marker-end="url(#arrow)"/>
+<text x="330" y="346" font-family="Georgia, 'Times New Roman', serif" font-size="9" font-style="italic" fill="#4a4540" text-anchor="middle">drains buffer / constrains</text>
+<path d="M210 220 L450 320" stroke="#1a1714" stroke-width="1" fill="none" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+<path d="M450 220 L210 320" stroke="#1a1714" stroke-width="1" fill="none" stroke-dasharray="4 3" marker-end="url(#arrow)"/>
+<text x="350" y="448" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">A memo that treats the four as separate is not yet integrated. The board catches the gaps.</text>
+</svg>

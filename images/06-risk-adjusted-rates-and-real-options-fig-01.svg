@@ -1,0 +1,31 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#1a1714"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#fdfcfb"/>
+<text x="350" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">Same operations, different leverage, different equity beta</text>
+<text x="350" y="54" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">Unlever each firm to recover the asset beta — then relever to your project&#8217;s target structure.</text>
+<rect x="56" y="80" width="272" height="100" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="192" y="106" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#4a4540" text-anchor="middle" letter-spacing="1.2">FIRM A — 20% debt</text>
+<text x="192" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">Lower equity β: 1.0</text>
+<text x="192" y="160" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">Less leverage amplification</text>
+<rect x="372" y="80" width="272" height="100" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="508" y="106" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#4a4540" text-anchor="middle" letter-spacing="1.2">FIRM B — 50% debt</text>
+<text x="508" y="138" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">Higher equity β: 1.5</text>
+<text x="508" y="160" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">More leverage amplification</text>
+<path d="M192 180 Q192 230 280 230" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<path d="M508 180 Q508 230 420 230" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<text x="190" y="215" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714" text-anchor="end">unlever</text>
+<text x="510" y="215" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714">unlever</text>
+<rect x="280" y="220" width="140" height="60" fill="#1a1714" stroke="#1a1714"/>
+<text x="350" y="244" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#fdfcfb" text-anchor="middle">Asset β (shared)</text>
+<text x="350" y="264" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#fdfcfb" text-anchor="middle">≈ 0.85</text>
+<path d="M350 280 L350 320" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<text x="360" y="306" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714">relever to target</text>
+<rect x="200" y="320" width="300" height="48" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="350" y="344" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">Project β at your target capital structure</text>
+<text x="350" y="360" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">→ project-specific WACC</text>
+<text x="350" y="404" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">$\beta_\text{asset} = \beta_\text{equity} / [1 + (1-T_c)(D/E)]$ — Hamada equation</text>
+</svg>

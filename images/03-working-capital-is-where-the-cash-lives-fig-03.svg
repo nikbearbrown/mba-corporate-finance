@@ -1,0 +1,39 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#1a1714"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#fdfcfb"/>
+<text x="350.0" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">Working-capital levers cross organizational lines</text>
+<text x="350.0" y="54" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">Each CCC component lives in a different function. Improvement is a cross-functional negotiation.</text>
+<rect x="70" y="188" width="120" height="64" fill="#1a1714" stroke="#1a1714" stroke-width="1"/>
+<text x="130" y="225" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="bold" fill="#fdfcfb" text-anchor="middle">DSO</text>
+<rect x="58" y="280" width="144" height="28" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="130" y="298" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714" text-anchor="middle">Sales</text>
+<line x1="130" y1="252" x2="130" y2="280" stroke="#8a8480" stroke-width="0.75" stroke-dasharray="3 3"/>
+<rect x="58" y="316" width="144" height="28" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="130" y="334" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714" text-anchor="middle">Finance / Credit</text>
+
+<rect x="290" y="188" width="120" height="64" fill="#1a1714" stroke="#1a1714" stroke-width="1"/>
+<text x="350" y="225" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="bold" fill="#fdfcfb" text-anchor="middle">DIO</text>
+<rect x="278" y="280" width="144" height="28" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="350" y="298" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714" text-anchor="middle">Operations</text>
+<line x1="350" y1="252" x2="350" y2="280" stroke="#8a8480" stroke-width="0.75" stroke-dasharray="3 3"/>
+<rect x="278" y="316" width="144" height="28" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="350" y="334" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714" text-anchor="middle">Supply Chain</text>
+
+<rect x="510" y="188" width="120" height="64" fill="#1a1714" stroke="#1a1714" stroke-width="1"/>
+<text x="570" y="225" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="bold" fill="#fdfcfb" text-anchor="middle">DPO</text>
+<rect x="498" y="280" width="144" height="28" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="570" y="298" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714" text-anchor="middle">Procurement</text>
+<line x1="570" y1="252" x2="570" y2="280" stroke="#8a8480" stroke-width="0.75" stroke-dasharray="3 3"/>
+<rect x="498" y="316" width="144" height="28" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="570" y="334" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714" text-anchor="middle">Treasury</text>
+
+<path d="M190 220 L290 220" stroke="#1a1714" stroke-width="1" fill="none" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+<text x="240.0" y="212" font-family="Georgia, 'Times New Roman', serif" font-size="9" font-style="italic" fill="#4a4540" text-anchor="middle">tighter terms vs. revenue</text>
+<path d="M410 220 L510 220" stroke="#1a1714" stroke-width="1" fill="none" stroke-dasharray="6 4" marker-end="url(#arrow)"/>
+<text x="460.0" y="212" font-family="Georgia, 'Times New Roman', serif" font-size="9" font-style="italic" fill="#4a4540" text-anchor="middle">AP push vs. supplier risk</text>
+<text x="350.0" y="394" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">The arithmetic is one cell in a spreadsheet. The execution is a cross-functional negotiation.</text>
+</svg>

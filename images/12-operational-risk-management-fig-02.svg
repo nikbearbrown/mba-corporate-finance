@@ -1,0 +1,34 @@
+<svg viewBox="0 0 700 420" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#1a1714"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="420" fill="#fdfcfb"/>
+<text x="350" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">Transaction vs. translation FX exposure</text>
+<text x="350" y="54" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">Transaction is cash. Translation is accounting.</text>
+<rect x="56" y="80" width="280" height="280" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="196" y="104" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#4a4540" text-anchor="middle" letter-spacing="1.2">TRANSACTION EXPOSURE</text>
+<text x="76" y="140" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714">£5M contract receipt — Day 0</text>
+<line x1="76" y1="190" x2="316" y2="190" stroke="#1a1714" stroke-width="1.5"/>
+<line x1="76" y1="184" x2="76" y2="196" stroke="#1a1714" stroke-width="1.5"/>
+<line x1="316" y1="184" x2="316" y2="196" stroke="#1a1714" stroke-width="1.5"/>
+<text x="196" y="180" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">90 days</text>
+<text x="76" y="216" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714">Day 90 — receive £5M</text>
+<text x="316" y="216" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714" text-anchor="end">Convert to USD at spot</text>
+<text x="76" y="252" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714">Forward contract neutralizes:</text>
+<text x="76" y="270" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540">Sell £5M forward at Day 0 forward rate.</text>
+<text x="76" y="286" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540">USD equivalent locked in regardless of spot.</text>
+<text x="196" y="332" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">Cash-real. Hedgeable. HEDGE.</text>
+<rect x="364" y="80" width="280" height="280" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="504" y="104" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#4a4540" text-anchor="middle" letter-spacing="1.2">TRANSLATION EXPOSURE</text>
+<text x="384" y="140" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714">UK subsidiary: £40M net assets</text>
+<text x="384" y="160" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714">on the consolidated balance sheet</text>
+<line x1="384" y1="190" x2="624" y2="190" stroke="#1a1714" stroke-width="1"/>
+<text x="384" y="216" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714">GBP/USD moves down 10%</text>
+<text x="384" y="236" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714">Reported book value drops</text>
+<text x="384" y="256" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#1a1714">No actual cash moves</text>
+<text x="384" y="288" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540">A hedge would create a real cash cost</text>
+<text x="384" y="304" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540">to manage an accounting outcome.</text>
+<text x="504" y="332" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">Accounting only. DO NOT HEDGE.</text>
+</svg>

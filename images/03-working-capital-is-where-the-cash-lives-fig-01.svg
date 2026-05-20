@@ -1,0 +1,29 @@
+<svg viewBox="0 0 700 360" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#1a1714"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="360" fill="#fdfcfb"/>
+<text x="350.0" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">Working capital is cash in transit</text>
+<text x="350.0" y="54" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">Three buckets where cash sits between earning and spending. Each bucket is days of cash held still.</text>
+<rect x="60" y="120" width="160" height="160" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="140" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#4a4540" text-anchor="middle" letter-spacing="1">ACCOUNTS RECEIVABLE</text>
+<line x1="72" y1="160" x2="208" y2="160" stroke="#8a8480" stroke-width="0.75"/>
+<text x="140" y="188" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">Cash promised</text>
+<text x="140" y="212" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#4a4540" text-anchor="middle">Not yet received</text>
+<text x="140" y="252" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714" text-anchor="middle">→ inflow pending</text>
+<rect x="280" y="120" width="160" height="160" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="360" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#4a4540" text-anchor="middle" letter-spacing="1">INVENTORY</text>
+<line x1="292" y1="160" x2="428" y2="160" stroke="#8a8480" stroke-width="0.75"/>
+<text x="360" y="188" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">Cash spent</text>
+<text x="360" y="212" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#4a4540" text-anchor="middle">Not yet revenue</text>
+<text x="360" y="252" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714" text-anchor="middle">→ outflow done</text>
+<rect x="500" y="120" width="160" height="160" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="580" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#4a4540" text-anchor="middle" letter-spacing="1">ACCOUNTS PAYABLE</text>
+<line x1="512" y1="160" x2="648" y2="160" stroke="#8a8480" stroke-width="0.75"/>
+<text x="580" y="188" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">Cash owed</text>
+<text x="580" y="212" font-family="Georgia, 'Times New Roman', serif" font-size="11" fill="#4a4540" text-anchor="middle">Not yet paid</text>
+<text x="580" y="252" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#1a1714" text-anchor="middle">← outflow pending</text>
+<text x="350.0" y="320" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">CCC = DSO + DIO − DPO. Each lever is a different organizational fight.</text>
+</svg>

@@ -1,0 +1,51 @@
+[WARNING] Could not fetch resource 'images/donaldson-brown.jpg': PandocResourceNotFound "images/donaldson-brown.jpg"
+[WARNING] Could not fetch resource 'images/mary-harris-smith.jpg': PandocResourceNotFound "images/mary-harris-smith.jpg"
+[WARNING] Could not fetch resource 'images/john-hicks.jpg': PandocResourceNotFound "images/john-hicks.jpg"
+[WARNING] Could not fetch resource 'images/joel-dean.jpg': PandocResourceNotFound "images/joel-dean.jpg"
+[WARNING] Could not fetch resource 'images/fischer-black.jpg': PandocResourceNotFound "images/fischer-black.jpg"
+[WARNING] Could not fetch resource 'images/irving-fisher.jpg': PandocResourceNotFound "images/irving-fisher.jpg"
+[WARNING] Could not fetch resource 'images/merton-miller.jpg': PandocResourceNotFound "images/merton-miller.jpg"
+[WARNING] Could not fetch resource 'images/adolf-a-berle.jpg': PandocResourceNotFound "images/adolf-a-berle.jpg"
+[WARNING] Could not fetch resource 'images/gardiner-c-means.jpg': PandocResourceNotFound "images/gardiner-c-means.jpg"
+[WARNING] Could not fetch resource 'images/maggie-lena-walker.jpg': PandocResourceNotFound "images/maggie-lena-walker.jpg"
+[WARNING] Could not fetch resource 'images/edith-penrose.jpg': PandocResourceNotFound "images/edith-penrose.jpg"
+[WARNING] Could not fetch resource 'images/karl-borch.jpg': PandocResourceNotFound "images/karl-borch.jpg"
+[WARNING] Could not fetch resource 'images/susan-strange.jpg': PandocResourceNotFound "images/susan-strange.jpg"
+[WARNING] Could not fetch resource 'images/daniel-bernoulli.jpg': PandocResourceNotFound "images/daniel-bernoulli.jpg"
+[WARNING] Could not fetch resource 'images/joseph-schumpeter.jpg': PandocResourceNotFound "images/joseph-schumpeter.jpg"
+[WARNING] Could not convert TeX math '\begin{array}{lr}
+  \text{Revenue} & 1{,}000 \\
+  -\ \text{Cost of Goods Sold} & (600) \\
+  -\ \text{SG\&A} & (200) \\
+  -\ \text{Depreciation} & (50) \\
+  \hline
+  \text{Operating Income} & 150 \\
+  -\ \text{Interest Expense} & (30) \\
+  -\ \text{Tax Expense} & (25) \\
+  \hline
+  \text{Net Income} & 95
+  \end{array}', rendering as TeX
+[WARNING] Could not convert TeX math '\begin{array}{lr}
+  \text{Net Income} & 95 \\
+  +\ \text{Depreciation (non-cash; add back)} & 50 \\
+  -\ \text{Increase in Accounts Receivable} & (40) \\
+  -\ \text{Increase in Inventory} & (20) \\
+  +\ \text{Increase in Accounts Payable} & 25 \\
+  +\ \text{Increase in Accrued Liabilities} & 10 \\
+  \hline
+  \text{Operating Cash Flow} & 120
+  \end{array}', rendering as TeX
+[WARNING] Could not convert TeX math '\text{Cash Conversion Ratio} = \frac{\text{Operating Cash Flow}}{\text{Net Income}}', rendering as TeX
+[WARNING] Could not convert TeX math '\text{DSO} = \frac{\text{Accounts Receivable}}{\text{Revenue}} \times 365', rendering as TeX
+[WARNING] Could not convert TeX math '\text{DIO} = \frac{\text{Inventory}}{\text{COGS}} \times 365', rendering as TeX
+[WARNING] Could not convert TeX math '\text{DPO} = \frac{\text{Accounts Payable}}{\text{COGS}} \times 365', rendering as TeX
+[WARNING] Could not convert TeX math '\text{DSO} = \frac{330}{2000} \times 365 \approx 60 \text{ days}', rendering as TeX
+[WARNING] Could not convert TeX math '\text{DIO} = \frac{230}{1400} \times 365 \approx 60 \text{ days}', rendering as TeX
+[WARNING] Could not convert TeX math '\text{DPO} = \frac{135}{1400} \times 365 \approx 35 \text{ days}', rendering as TeX
+[WARNING] Could not convert TeX math 'NPV = \sum_{t=0}^{T} \frac{FCFF_t}{(1+r)^t}', rendering as TeX
+[WARNING] Could not convert TeX math 'TV = \frac{FCFF_{T+1}}{r - g}', rendering as TeX
+[WARNING] Could not convert TeX math 'TV = \frac{FCFF_{T+1}}{r - g}', rendering as TeX
+[WARNING] Could not convert TeX math '\text{WACC} = \frac{E}{V} \cdot R_e + \frac{D}{V} \cdot R_d \cdot (1 - T)', rendering as TeX
+[WARNING] Could not convert TeX math 'NPV = CF \times \frac{1-(1+r)^{-n}}{r}', rendering as TeX
+[WARNING] Could not convert TeX math '\beta_{\text{asset}} = \frac{\beta_{\text{equity}}}{1 + (1 - t) \cdot D/E}', rendering as TeX
+[WARNING] Could not convert TeX math 'R_E = R_U + \frac{D}{E} \times (R_U - R_D)', rendering as TeX

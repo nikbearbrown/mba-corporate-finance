@@ -1,0 +1,33 @@
+<svg viewBox="0 0 700 480" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <marker id="arrow" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+    <polygon points="0 0, 8 3, 0 6" fill="#1a1714"/>
+  </marker>
+</defs>
+<rect x="0" y="0" width="700" height="480" fill="#fdfcfb"/>
+<text x="350.0" y="36" font-family="Georgia, 'Times New Roman', serif" font-size="13" font-weight="bold" fill="#1a1714" text-anchor="middle">Plant 4 — commit now or wait six months</text>
+<text x="350.0" y="54" font-family="Georgia, 'Times New Roman', serif" font-size="10" font-style="italic" fill="#4a4540" text-anchor="middle">The deferral option resolves Q2 demand uncertainty before the $50M is committed. Probabilities are placeholders.</text>
+<rect x="60" y="220" width="100" height="60" fill="#f5f2ee" stroke="#1a1714" stroke-width="2"/>
+<text x="110" y="246" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">Today</text>
+<text x="110" y="262" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#4a4540" text-anchor="middle">commit / wait?</text>
+<path d="M160 240 L290 140" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<text x="220" y="180" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714" text-anchor="middle">commit now</text>
+<rect x="290" y="124" width="160" height="40" fill="#1a1714" stroke="#1a1714"/>
+<text x="370" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#fdfcfb" text-anchor="middle">NPV = +$25M</text>
+<path d="M160 260 L290 360" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<text x="220" y="320" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714" text-anchor="middle">wait 6 months</text>
+<circle cx="350" cy="380" r="34" fill="#f5f2ee" stroke="#1a1714" stroke-width="2"/>
+<text x="350" y="376" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714" text-anchor="middle">Q2 demand</text>
+<text x="350" y="390" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714" text-anchor="middle">data arrives</text>
+<path d="M384 360 L500 280" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<text x="430" y="310" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714">strong (p=0.5)</text>
+<rect x="500" y="252" width="170" height="56" fill="#1a1714" stroke="#1a1714"/>
+<text x="585" y="276" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#fdfcfb" text-anchor="middle">commit, NPV = +$80M</text>
+<text x="585" y="294" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#c8c4c0" text-anchor="middle">net of 6-mo deferral cost</text>
+<path d="M384 400 L500 440" stroke="#1a1714" stroke-width="1.5" fill="none" marker-end="url(#arrow)"/>
+<text x="430" y="440" font-family="Georgia, 'Times New Roman', serif" font-size="10" fill="#1a1714">weak (p=0.5)</text>
+<rect x="500" y="436" width="170" height="32" fill="#f5f2ee" stroke="#1a1714" stroke-width="1"/>
+<text x="585" y="456" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-weight="bold" fill="#1a1714" text-anchor="middle">abandon, NPV = $0</text>
+<text x="60" y="84" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-style="italic" fill="#1a1714">Wait branch EV = 0.5 × $80M + 0.5 × $0 = $40M</text>
+<text x="60" y="100" font-family="Georgia, 'Times New Roman', serif" font-size="11" font-style="italic" fill="#1a1714">Option value = $40M − $25M = $15M</text>
+</svg>
