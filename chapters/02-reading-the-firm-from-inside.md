@@ -11,7 +11,8 @@ In her MBA core, the financial statements were the source. Four statements per y
 
 Aaron's working file flips that entirely. The statements are the *output*. The bedrock is dozens of subsystems — the accounts-receivable aging report, the inventory standard-cost roll, the accrual journal entries, the foreign-exchange translation worksheet, the legal reserve memo, the warranty accrual model. The published statements are the result of decisions about how to summarize those subsystems. Different reasonable decisions produce different statements.
 
-<!-- → [INFOGRAPHIC: diagram showing the Q1 close package as an iceberg — visible tip labeled "Published 10-Q" (income statement, balance sheet, cash flow statement), submerged mass labeled with the subsystems: AR aging report, inventory standard-cost roll, accrual journal entries, FX translation worksheet, legal reserve memo, warranty accrual model — reinforces "statements are output, not source"] -->
+![Diagram showing the Q1 close package as an](images/02-reading-the-firm-from-inside-fig-01.png)
+*Figure 2.1 — Diagram showing the Q1 close package as an*
 
 What I want to do in this chapter is show you that. Not to make you suspicious of financial statements — you should trust them, within limits — but to show you that reading a statement as someone who will sign it is a different act from reading it as someone who found it on EDGAR. The inside view is not a different set of numbers. It is the same numbers, held by someone who knows where each one came from.
 
@@ -77,7 +78,8 @@ $$\begin{array}{lr}
 \text{Operating Cash Flow} & 120
 \end{array}$$
 
-<!-- → [INFOGRAPHIC: annotated bridge diagram — left bar "Net Income $95M", right bar "Operating Cash Flow $120M", bridge segments labeled with each adjustment (+50 depreciation, -40 AR, -20 inventory, +25 AP, +10 accruals) — student should see the $25M gap as the sum of five named parts, not a single unexplained difference] -->
+![Bridge diagram ](images/02-reading-the-firm-from-inside-fig-02.png)
+*Figure 2.2 — Bridge diagram *
 
 This firm generated $120M of operating cash while reporting $95M of net income. The $25M gap is the arithmetic sum of several pieces: depreciation added back because it was a non-cash charge; receivables that grew because revenue was recognized before cash arrived; inventory that grew because cash was spent on goods not yet sold; payables and accruals that grew because obligations were incurred but not yet paid.
 
@@ -111,7 +113,8 @@ $$\text{Cash Conversion Ratio} = \frac{\text{Operating Cash Flow}}{\text{Net Inc
 
 A ratio consistently above 1.0 means the firm is generating more cash than its reported earnings, which is the signature of high earnings quality. Depreciation and payables management work in the firm's favor, and working capital dynamics are clean. A ratio declining over time means each dollar of reported earnings is backing up against more working capital — receivables building, inventory accumulating, something not converting to cash the way it used to. A ratio persistently below 1.0, in a firm that is not in an explainable high-growth phase, is the most reliable early warning signal I know of in financial statement analysis.
 
-<!-- → [CHART: line chart showing cash conversion ratio over eight quarters for three hypothetical firms — one flat above 1.0 (healthy), one declining from 1.2 to 0.8 (deteriorating), one volatile with spikes at quarter-end (managed) — student should see the trend line, not just the point-in-time value, as the diagnostic signal] -->
+![Line chart showing cash conversion ratio over eight](images/02-reading-the-firm-from-inside-fig-03.png)
+*Figure 2.3 — Line chart showing cash conversion ratio over eight*
 
 The empirical foundation for this goes back to Richard Sloan's 1996 work on accruals, which showed that the accrual component of earnings — the difference between net income and operating cash flow — is less persistent than the cash component in predicting future earnings. Firms with high accruals tend to see subsequent earnings revisions downward. Firms with low accruals tend to see earnings persist. The mechanism is exactly what we described: when reported earnings run ahead of cash, either the cash catches up — meaning the accruals were legitimate timing differences — or the earnings come down, meaning they were overstated. The market has historically been slow to price this in, though the gap has narrowed as the finding became widely known.
 
@@ -279,3 +282,36 @@ Who was Mary Harris Smith, and how does her career — including the four-decade
 
 What changes? What gets better? What gets worse?
 
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 2.1 — Diagram showing the Q1 close package as an
+
+Create a standalone D3 v7 HTML file for Figure Diagram showing the Q1 close package as an. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: diagram showing the Q1 close package as an iceberg — visible tip labeled "Published 10-Q" (income statement, balance sheet, cash flow statement), submerged mass labeled with the subsystems: AR aging report, inventory standard-cost roll, accrual journal entries, FX translation worksheet, legal reserve memo, warranty accrual model — reinforces "statements are output, not source". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/02-reading-the-firm-from-inside-fig-01.html`
+
+---
+
+### Figure 2.2 — Bridge diagram 
+
+Create a standalone D3 v7 HTML file for Figure Bridge diagram . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: annotated bridge diagram — left bar "Net Income $95M", right bar "Operating Cash Flow $120M", bridge segments labeled with each adjustment (+50 depreciation, -40 AR, -20 inventory, +25 AP, +10 accruals) — student should see the $25M gap as the sum of five named parts, not a single unexplained difference. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/02-reading-the-firm-from-inside-fig-02.html`
+
+---
+
+### Figure 2.3 — Line chart showing cash conversion ratio over eight
+
+Create a standalone D3 v7 HTML file for Figure Line chart showing cash conversion ratio over eight. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: line chart showing cash conversion ratio over eight quarters for three hypothetical firms — one flat above 1.0 (healthy), one declining from 1.2 to 0.8 (deteriorating), one volatile with spikes at quarter-end (managed) — student should see the trend line, not just the point-in-time value, as the diagnostic signal. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/02-reading-the-firm-from-inside-fig-03.html`

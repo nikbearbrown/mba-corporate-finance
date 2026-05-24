@@ -40,7 +40,8 @@ The explanations for this puzzle are unsatisfying. If it were a cartel, regulato
 
 I want to be honest that this stickiness is not fully explained. Every other fee in capital markets has compressed over the same period. Equity commissions have fallen to fractions of a cent per share. Bond spreads have narrowed. Derivatives pricing has become faster and cheaper. And yet the fee for taking a company public has stayed at approximately 7% for as long as anyone has measured it carefully. I do not know why. The cartel explanation fails; the pure competition explanation fails; the bundled-services explanation accounts for some stickiness but not the degree of it. This is a genuine puzzle, and the honest response is to note it rather than paper it over with a tidy story.
 
-<!-- → [CHART: US IPO gross spread over time, approximately 1985–present — flat line near 7% with minimal variation, contrasted with a second line showing equity trading commissions per share declining steeply over the same period — student should see the puzzle directly: every other fee compressed while the IPO spread did not] -->
+![US IPO gross spread over time, approximately 1985–present](images/10-raising-capital-ipos-secondaries-and-the-cost-of-going-to-market-fig-01.png)
+*Figure 10.1 — US IPO gross spread over time, approximately 1985–present*
 
 For SEOs, the gross spread is lower — typically 4 to 5% for established public firms — because the firm is already known, the investor base is already holding the stock, and the information asymmetry is much reduced. Halverson would probably face a spread around 4%. On $400 million, that is $16 million. Real money. Not the major cost.
 
@@ -58,7 +59,8 @@ Why does it happen? The most rigorous explanation starts with the fact that inve
 
 This creates a problem for uninformed investors. When they receive an allocation, it tends to be disproportionately in deals the informed investors passed on — the ones where nobody who knew more wanted in. This is the winner's curse: you win the allocation most reliably when winning is bad news. To participate at all, uninformed investors require that IPOs be systematically underpriced — that the offer price be low enough that buying without information is still expected to be profitable in expectation, after accounting for the adverse selection in their allocations.
 
-<!-- → [INFOGRAPHIC: winner's curse mechanism — two-path diagram; path A: informed investors evaluate deal → price looks fair → they buy → uninformed investors also allocated → deal goes up modestly; path B: informed investors evaluate deal → price looks rich → they pass → uninformed investors receive full allocation → deal flat or down; bottom annotation: "uninformed investors receive large allocations exactly when they least want them — underpricing is the compensation for this systematic disadvantage"] -->
+![Winner's curse mechanism ](images/10-raising-capital-ipos-secondaries-and-the-cost-of-going-to-market-fig-02.png)
+*Figure 10.2 — Winner's curse mechanism *
 
 The underwriters know all of this. They set the offer price to be low enough to clear the market, including the uninformed investors who need compensation for their informational disadvantage. The underpricing is not an accident. It is not a negotiating failure. It is the price of getting the deal done.
 
@@ -80,7 +82,8 @@ Myers and Majluf formalized this logic: equity issuance always signals bad news 
 
 The mitigation is communication. If the company announces the equity offering simultaneously with a compelling specific use of proceeds — a named acquisition target, a project with a clearly positive NPV, a strategic rationale the market can evaluate and verify — investors can distinguish between "management thinks we're overvalued" and "management has found a use of funds that requires equity." The announcement effect compresses. It does not disappear — even well-communicated deals see a 1 to 2% drop — but the difference between a clear strategic rationale and vague "general corporate purposes" could be the difference between $50 million and $125 million evaporating on announcement day.
 
-<!-- → [CHART: announcement effect range — horizontal bar chart showing stock price reaction for three scenarios: "vague general corporate purposes" (−3% to −4%), "equity issuance with named acquisition" (−1% to −2%), "equity issuance with high-conviction strategic rationale and favorable market" (near 0%); for a $5B market cap, dollar values of each scenario annotated — student should see that communication quality is worth tens to hundreds of millions at Halverson's scale] -->
+![Announcement effect range ](images/10-raising-capital-ipos-secondaries-and-the-cost-of-going-to-market-fig-03.png)
+*Figure 10.3 — Announcement effect range *
 
 This is why Diane's question about the acquisition case matters. If Halverson is raising $400 million to fund an acquisition whose strategic logic is clear and whose price is fair, the announcement drop is smaller and the market's long-term rerating as the deal delivers value more than offsets the short-term cost. If Halverson is raising $400 million for balance sheet purposes, the market's more negative response will probably be right.
 
@@ -242,3 +245,36 @@ Who was Maggie Lena Walker, and how does her early-twentieth-century work mobili
 
 What changes? What gets better? What gets worse?
 
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 10.1 — US IPO gross spread over time, approximately 1985–present
+
+Create a standalone D3 v7 HTML file for Figure US IPO gross spread over time, approximately 1985–present. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: US IPO gross spread over time, approximately 1985–present — flat line near 7% with minimal variation, contrasted with a second line showing equity trading commissions per share declining steeply over the same period — student should see the puzzle directly: every other fee compressed while the IPO spread did not. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/10-raising-capital-ipos-secondaries-and-the-cost-of-going-to-market-fig-01.html`
+
+---
+
+### Figure 10.2 — Winner's curse mechanism 
+
+Create a standalone D3 v7 HTML file for Figure Winner's curse mechanism . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: winner's curse mechanism — two-path diagram; path A: informed investors evaluate deal → price looks fair → they buy → uninformed investors also allocated → deal goes up modestly; path B: informed investors evaluate deal → price looks rich → they pass → uninformed investors receive full allocation → deal flat or down; bottom annotation: "uninformed investors receive large allocations exactly when they least want them — underpricing is the compensation for this systematic disadvantage". Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/10-raising-capital-ipos-secondaries-and-the-cost-of-going-to-market-fig-02.html`
+
+---
+
+### Figure 10.3 — Announcement effect range 
+
+Create a standalone D3 v7 HTML file for Figure Announcement effect range . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: announcement effect range — horizontal bar chart showing stock price reaction for three scenarios: "vague general corporate purposes" (−3% to −4%), "equity issuance with named acquisition" (−1% to −2%), "equity issuance with high-conviction strategic rationale and favorable market" (near 0%); for a $5B market cap, dollar values of each scenario annotated — student should see that communication quality is worth tens to hundreds of millions at Halverson's scale. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/10-raising-capital-ipos-secondaries-and-the-cost-of-going-to-market-fig-03.html`

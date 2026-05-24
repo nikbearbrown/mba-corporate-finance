@@ -10,7 +10,8 @@ The number is measured in days. It tells you how long a dollar of cost spends in
 
 Eighty-five days does not sound alarming. But multiply it by the daily rate at which Halverson spends money, and something startling appears. Halverson's cost of goods sold is about $1.4 billion per year. Divide by 365 and you get roughly $3.8 million per day. Multiply that by 85 days and you get approximately $323 million — sitting inside the operating cycle at any given moment, not in a bank account, not invested in equipment, just in transit between outflow and inflow.
 
-<!-- → [INFOGRAPHIC: Scale comparison — $323M locked in operating cycle vs. total long-term debt vs. Plant 4 expansion cost, displayed as three horizontal bars. Reader should feel the relative magnitude before the prose names it.] -->
+![Scale comparison ](images/03-working-capital-is-where-the-cash-lives-fig-01.png)
+*Figure 3.1 — Scale comparison *
 
 That is larger than Halverson's total long-term debt. It is six times the size of the Plant 4 expansion Maya is analyzing in Chapter 4.
 
@@ -354,3 +355,20 @@ Who was John Hicks, and how does his concept of *liquidity preference* — the f
 
 What changes? What gets better? What gets worse?
 
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 3.1 — Scale comparison 
+
+Create a standalone D3 v7 HTML file for Figure Scale comparison . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Scale comparison — $323M locked in operating cycle vs. total long-term debt vs. Plant 4 expansion cost, displayed as three horizontal bars. Reader should feel the relative magnitude before the prose names it.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/03-working-capital-is-where-the-cash-lives-fig-01.html`

@@ -57,7 +57,8 @@ Halverson's firm-level required equity return is 9.8%. The project's required eq
 
 One percentage point sounds modest. Applied across a ten-year cash flow stream plus a terminal value, it is not modest. Maya's $42 million NPV at 8% becomes approximately $25 million at 9%. The project still passes the basic hurdle — the NPV is still positive — but the recommendation is now anchored to what Plant 4 actually is, not to what Halverson's average project is.
 
-<!-- → [CHART: NPV profile curve — NPV on y-axis, discount rate on x-axis, spanning roughly 6% to 14%. Two vertical lines: one at 8% (firm WACC, NPV = $42M labeled) and one at 9% (project WACC, NPV = $25M labeled). The curve's steepness between those two points — driven by the terminal value — should be visible. The x-intercept near 11.5% marks the IRR. Reader should see how much NPV falls per percentage point at this part of the curve.] -->
+![NPV profile curve ](images/06-risk-adjusted-rates-and-real-options-fig-01.png)
+*Figure 6.1 — NPV profile curve *
 
 ---
 
@@ -346,3 +347,20 @@ Who was Irving Fisher, and how does his 1930 *Theory of Interest* — the formal
 
 What changes? What gets better? What gets worse?
 
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 6.1 — NPV profile curve 
+
+Create a standalone D3 v7 HTML file for Figure NPV profile curve . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: NPV profile curve — NPV on y-axis, discount rate on x-axis, spanning roughly 6% to 14%. Two vertical lines: one at 8% (firm WACC, NPV = $42M labeled) and one at 9% (project WACC, NPV = $25M labeled). The curve's steepness between those two points — driven by the terminal value — should be visible. The x-intercept near 11.5% marks the IRR. Reader should see how much NPV falls per percentage point at this part of the curve.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/06-risk-adjusted-rates-and-real-options-fig-01.html`

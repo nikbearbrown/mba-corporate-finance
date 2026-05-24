@@ -51,7 +51,8 @@ $$V_L = V_U$$
 
 This is Proposition I. The value of the firm is independent of capital structure, in a world where investors can execute this arbitrage freely.
 
-<!-- → [INFOGRAPHIC: the arbitrage mechanism as a two-step flow — left side: "V_L > V_U" state with investor holding levered shares; right side: investor sells L shares, borrows personally, buys U shares; arrow labeled "same cash flow stream, lower price paid"; bottom: "arbitrage pressure drives V_L = V_U" — student should see why the money machine forces equality without needing algebra] -->
+![The arbitrage mechanism as a two-step flow ](images/07-capital-structure-theory-the-modigliani-miller-world-fig-01.png)
+*Figure 7.1 — The arbitrage mechanism as a two-step flow *
 
 The leverage hasn't disappeared. L's debt is still there. What's changed is the distribution of the firm's value between debt and equity holders. Adding debt shrinks the equity claim and grows the debt claim. The pie doesn't change size. The slices change.
 
@@ -65,7 +66,8 @@ The implication for the weighted average cost of capital is that it doesn't chan
 
 In the MM world, the cancellation is exact.
 
-<!-- → [CHART: Proposition II visualization — x-axis: D/E ratio from 0 to 3; three lines: R_D (flat), R_E (rising linearly per the Prop II formula), WACC (flat) — student should see that WACC remains constant as leverage rises because the rising cost of equity exactly offsets the benefit of cheaper debt; label the crossing point where R_E begins to exceed R_U] -->
+![Proposition II visualization ](images/07-capital-structure-theory-the-modigliani-miller-world-fig-02.png)
+*Figure 7.2 — Proposition II visualization *
 
 ---
 
@@ -115,7 +117,8 @@ $$\text{Plant 4 incremental tax shield} = 0.24 \times \$50M = \$12M$$
 
 That $12M is the value of the financing choice itself — distinct from the operational value of the plant, which is the NPV Maya calculated in Chapter 4. The total value created by accepting and debt-financing Plant 4 is approximately the operational NPV plus this $12M. The two sources of value are separable and addable because the MM framework is clean enough to let you distinguish them.
 
-<!-- → [INFOGRAPHIC: value decomposition for Plant 4 — stacked bar showing total value created by debt-financing the plant; bottom segment: operational NPV (from Chapter 4 sensitivity range); top segment: tax shield value T×D = $12M; label: "the financing choice adds $12M independent of plant operations" — student should see these as two distinct, addable sources of value] -->
+![Value decomposition for Plant 4 ](images/07-capital-structure-theory-the-modigliani-miller-world-fig-03.png)
+*Figure 7.3 — Value decomposition for Plant 4 *
 
 This is a concrete, calculable number. It's why the MM framework belongs here rather than in a history-of-finance chapter. The tax shield isn't an abstraction. It's a number you can put in a memo.
 
@@ -266,3 +269,36 @@ Who was Merton Miller, and how does the 1958 *Modigliani-Miller theorem* — tha
 
 What changes? What gets better? What gets worse?
 
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 7.1 — The arbitrage mechanism as a two-step flow 
+
+Create a standalone D3 v7 HTML file for Figure The arbitrage mechanism as a two-step flow . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: the arbitrage mechanism as a two-step flow — left side: "V_L > V_U" state with investor holding levered shares; right side: investor sells L shares, borrows personally, buys U shares; arrow labeled "same cash flow stream, lower price paid"; bottom: "arbitrage pressure drives V_L = V_U" — student should see why the money machine forces equality without needing algebra. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/07-capital-structure-theory-the-modigliani-miller-world-fig-01.html`
+
+---
+
+### Figure 7.2 — Proposition II visualization 
+
+Create a standalone D3 v7 HTML file for Figure Proposition II visualization . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Proposition II visualization — x-axis: D/E ratio from 0 to 3; three lines: R_D (flat), R_E (rising linearly per the Prop II formula), WACC (flat) — student should see that WACC remains constant as leverage rises because the rising cost of equity exactly offsets the benefit of cheaper debt; label the crossing point where R_E begins to exceed R_U. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/07-capital-structure-theory-the-modigliani-miller-world-fig-02.html`
+
+---
+
+### Figure 7.3 — Value decomposition for Plant 4 
+
+Create a standalone D3 v7 HTML file for Figure Value decomposition for Plant 4 . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: value decomposition for Plant 4 — stacked bar showing total value created by debt-financing the plant; bottom segment: operational NPV (from Chapter 4 sensitivity range); top segment: tax shield value T×D = $12M; label: "the financing choice adds $12M independent of plant operations" — student should see these as two distinct, addable sources of value. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/07-capital-structure-theory-the-modigliani-miller-world-fig-03.html`

@@ -46,7 +46,8 @@ Kahneman and Lovallo called this the planning fallacy: the tendency to predict o
 
 For Maya's Cardinal memo, the reference class question is pointed: in integrations of similarly sized industrial acquisitions, how do synergy realizations in years two and three compare to year-one tracking? The literature is not kind here. Year-one synergies are the easiest to capture — cost consolidations, procurement savings, headcount reductions. These are under direct management control and tend to arrive as projected. Year-two and year-three synergies, especially revenue synergies that depend on cross-selling and customer introductions, materialize more slowly and at lower rates than initial projections, consistently across deal samples. This is the prior the memo should be anchored to. Not the current six-month tracking.
 
-<!-- → [CHART: bar chart showing typical synergy realization rates by year post-close — x-axis: integration year (1, 2, 3); two bar groups: cost synergies and revenue synergies; cost synergies bars roughly 80%, 90%, 95% of plan across years; revenue synergies bars roughly 60%, 40%, 35% — student should see visually why the asymmetric haircut from Chapter 11 is empirically grounded, and why year-one tracking is an unreliable predictor of final realization] -->
+![Bar chart showing typical synergy realization rates by](images/14-behavioral-corporate-finance-fig-01.png)
+*Figure 14.1 — Bar chart showing typical synergy realization rates by*
 
 ---
 
@@ -258,3 +259,20 @@ Who was Daniel Bernoulli, and how does his 1738 *Exposition of a New Theory on t
 
 What changes? What gets better? What gets worse?
 
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 14.1 — Bar chart showing typical synergy realization rates by
+
+Create a standalone D3 v7 HTML file for Figure Bar chart showing typical synergy realization rates by. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: bar chart showing typical synergy realization rates by year post-close — x-axis: integration year (1, 2, 3); two bar groups: cost synergies and revenue synergies; cost synergies bars roughly 80%, 90%, 95% of plan across years; revenue synergies bars roughly 60%, 40%, 35% — student should see visually why the asymmetric haircut from Chapter 11 is empirically grounded, and why year-one tracking is an unreliable predictor of final realization. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/14-behavioral-corporate-finance-fig-01.html`

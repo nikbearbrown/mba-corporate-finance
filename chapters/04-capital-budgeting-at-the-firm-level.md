@@ -22,7 +22,8 @@ The calculation itself takes about thirty seconds in a spreadsheet. MBA programs
 
 The hard part — where those numbers came from and whether they're right — is upstream of the problem set, and mostly invisible.
 
-<!-- → [INFOGRAPHIC: two-column diagram — left column labeled "Classroom NPV" shows a clean pre-filled table of cash flows feeding directly into the formula; right column labeled "Inside-the-firm NPV" shows the same formula downstream of a messy web of people, forecasts, and processes (operations team, sales pipeline, controller's report, treasurer's credit agreement) — student should see that the formula is identical in both cases and all the work lives upstream of it] -->
+![Two-column diagram ](images/04-capital-budgeting-at-the-firm-level-fig-01.png)
+*Figure 4.1 — Two-column diagram *
 
 From inside the firm, all of that upstream work is your job. Plant 4 does not have a published cash flow stream. It does not yet exist. Every line of the projection has to be constructed from forecasts about something that hasn't happened yet, and every forecast is owned by a person with a different relationship to optimism than you have.
 
@@ -76,7 +77,8 @@ Let me say that again. Sixty percent of the recommendation to spend $50M is driv
 
 Now look at what happens when you vary $g$ across a range that all seem plausible for a US industrial manufacturer in a mature market. At $g$ = 1.5%, the NPV might be $30M. At $g$ = 2.5% (the operations team's assumption), perhaps $45M. At $g$ = 3.5%, perhaps $65M. The NPV range across a plausible input range is larger than the NPV itself at the low end.
 
-<!-- → [CHART: sensitivity bar chart — x-axis: terminal growth rate g at 1.5%, 2.0%, 2.5%, 3.0%, 3.5%; y-axis: total project NPV in $M; bars rising steeply left to right; horizontal dashed line at NPV=0 to confirm all scenarios positive; annotation on the 2.5% bar labeled "operations team assumption"; annotation spanning the full bar range labeled "NPV swings by ~2× across plausible g" — student should see that the uncertainty in g dwarfs the precision implied by the $87.4M figure] -->
+![Sensitivity bar chart ](images/04-capital-budgeting-at-the-firm-level-fig-02.png)
+*Figure 4.2 — Sensitivity bar chart *
 
 The NPV is highly sensitive to a parameter that is hard to estimate and easy to choose optimistically. This is not a flaw in NPV as a method. It is a structural feature of long-lived assets discounted over long periods, and it applies to every capital project with a terminal value component — which is most of them. The formula amplifies small differences in $g$ because it sits in the denominator of a fraction that is then multiplied by a large numerator. Changing $g$ by one percentage point, in that formula, moves the terminal value by something like 25–40 percent depending on the specific numbers. That is not a rounding error.
 
@@ -116,7 +118,8 @@ Operations team base case: approximately $87M (aggressive ramp, $g$ = 2.5%). May
 
 All of these are positive. That is actually the important result.
 
-<!-- → [CHART: scenario waterfall — four horizontal bars labeled "Ops team base," "Maya base," "Maya downside," "Maya upside," plotted on a single NPV axis from $0 to $100M; all bars land in positive territory; annotation: "sign is stable across all scenarios"; secondary annotation on the Ops team bar: "this is the number in the board deck" — student should see that robustness of sign matters more than precision of point estimate] -->
+![Scenario waterfall ](images/04-capital-budgeting-at-the-firm-level-fig-03.png)
+*Figure 4.3 — Scenario waterfall *
 
 The decision to accept Plant 4 is robust across reasonable assumption changes. The exact NPV is not robust — it swings by a factor of three across the range — but the sign is stable. A positive NPV that stays positive across a wide sensitivity range is more defensible than a positive NPV that flips negative when you push one assumption. The memo should say this explicitly. Not "the NPV is $87M, accept the project." The recommendation is: "The NPV is positive across all reasonable assumptions, ranging from approximately $28M in the downside scenario to approximately $87M under the operations team's assumptions. The recommendation to proceed is robust. The exact value is not. Here is the sensitivity table. Here are the three assumptions that drive most of the range. Here is the one confirmation that should be obtained before the board meeting."
 
@@ -257,3 +260,36 @@ Who was Joel Dean, and how does his 1951 book *Capital Budgeting* — translatin
 
 What changes? What gets better? What gets worse?
 
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 4.1 — Two-column diagram 
+
+Create a standalone D3 v7 HTML file for Figure Two-column diagram . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: two-column diagram — left column labeled "Classroom NPV" shows a clean pre-filled table of cash flows feeding directly into the formula; right column labeled "Inside-the-firm NPV" shows the same formula downstream of a messy web of people, forecasts, and processes (operations team, sales pipeline, controller's report, treasurer's credit agreement) — student should see that the formula is identical in both cases and all the work lives upstream of it. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/04-capital-budgeting-at-the-firm-level-fig-01.html`
+
+---
+
+### Figure 4.2 — Sensitivity bar chart 
+
+Create a standalone D3 v7 HTML file for Figure Sensitivity bar chart . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: sensitivity bar chart — x-axis: terminal growth rate g at 1.5%, 2.0%, 2.5%, 3.0%, 3.5%; y-axis: total project NPV in $M; bars rising steeply left to right; horizontal dashed line at NPV=0 to confirm all scenarios positive; annotation on the 2.5% bar labeled "operations team assumption"; annotation spanning the full bar range labeled "NPV swings by ~2× across plausible g" — student should see that the uncertainty in g dwarfs the precision implied by the $87.4M figure. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/04-capital-budgeting-at-the-firm-level-fig-02.html`
+
+---
+
+### Figure 4.3 — Scenario waterfall 
+
+Create a standalone D3 v7 HTML file for Figure Scenario waterfall . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: scenario waterfall — four horizontal bars labeled "Ops team base," "Maya base," "Maya downside," "Maya upside," plotted on a single NPV axis from $0 to $100M; all bars land in positive territory; annotation: "sign is stable across all scenarios"; secondary annotation on the Ops team bar: "this is the number in the board deck" — student should see that robustness of sign matters more than precision of point estimate. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/04-capital-budgeting-at-the-firm-level-fig-03.html`

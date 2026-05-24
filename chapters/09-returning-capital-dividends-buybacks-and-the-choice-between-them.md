@@ -52,7 +52,8 @@ John Lintner documented this in 1956, in one of the most carefully observed stud
 
 The evidence on what happens when that commitment is broken is unambiguous. Firms that cut dividends typically see their stock prices fall sharply on the announcement, the magnitude depending on the severity of the cut and how much warning the market had. The cut may be financially rational — the cash is needed for something more valuable — but the market interprets it as management confessing that the future they had promised was not the future they believed in. The signal overwhelms the arithmetic.
 
-<!-- → [CHART: Stylized event-study chart showing average stock price response around dividend cut announcements — x-axis: days relative to announcement (−10 to +10); y-axis: cumulative abnormal return. Sharp negative return on day 0, modest partial recovery over subsequent days. Intended to make the "signal overwhelms the arithmetic" claim concrete and quantitative.] -->
+![Stylized event-study chart showing average stock price response](images/09-returning-capital-dividends-buybacks-and-the-choice-between-them-fig-01.png)
+*Figure 9.1 — Stylized event-study chart showing average stock price response*
 
 This dynamic creates a trap for poorly designed dividend policy. A board that sets the dividend too high — based on last year's exceptional free cash flow rather than sustainable earnings capacity — has committed to a level it may not be able to maintain. The mistake is silent for several years while the firm earns enough to cover the payments. When earnings deteriorate and the cut becomes unavoidable, the reckoning is public and severe.
 
@@ -76,7 +77,8 @@ The third is that buybacks can be abused, and the abuse is common. Earnings per 
 
 The timing record is revealing. Firms tend to repurchase the most stock near market peaks — when prices are high and the buyback is least value-creating — and the least stock near troughs, when the buyback would actually create value. The pattern is roughly the inverse of what a value-maximizing approach would produce. The explanation is behavioral: when the stock is high, cash flows are usually strong and boards feel confident; when the stock is low, cash flows are usually weaker and caution dominates. The market cycle and the repurchase cycle move together in the wrong direction.
 
-<!-- → [CHART: Dual-axis line chart — x-axis: years (illustrative cycle, roughly 2005–2020); left y-axis: aggregate S&P 500 buyback volume ($B); right y-axis: market index level. The two lines should move together, peaking near 2007 and 2018, troughing near 2009 and 2020. Intended to make the pro-cyclical buyback timing pattern visible and striking rather than abstract.] -->
+![Dual-axis line chart ](images/09-returning-capital-dividends-buybacks-and-the-choice-between-them-fig-02.png)
+*Figure 9.2 — Dual-axis line chart *
 
 ---
 
@@ -297,3 +299,28 @@ Who was Gardiner C. Means, and how does his empirical work on corporate dividend
 
 What changes? What gets better? What gets worse?
 
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 9.1 — Stylized event-study chart showing average stock price response
+
+Create a standalone D3 v7 HTML file for Figure Stylized event-study chart showing average stock price response. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Stylized event-study chart showing average stock price response around dividend cut announcements — x-axis: days relative to announcement (−10 to +10); y-axis: cumulative abnormal return. Sharp negative return on day 0, modest partial recovery over subsequent days. Intended to make the "signal overwhelms the arithmetic" claim concrete and quantitative.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/09-returning-capital-dividends-buybacks-and-the-choice-between-them-fig-01.html`
+
+---
+
+### Figure 9.2 — Dual-axis line chart 
+
+Create a standalone D3 v7 HTML file for Figure Dual-axis line chart . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Dual-axis line chart — x-axis: years (illustrative cycle, roughly 2005–2020); left y-axis: aggregate S&P 500 buyback volume ($B); right y-axis: market index level. The two lines should move together, peaking near 2007 and 2018, troughing near 2009 and 2020. Intended to make the pro-cyclical buyback timing pattern visible and striking rather than abstract.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/09-returning-capital-dividends-buybacks-and-the-choice-between-them-fig-02.html`

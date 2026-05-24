@@ -1,6 +1,6 @@
 # Corporate Finance with AI
 
-**Author:** Nik Bear Brown
+**Author:** Humanitarians AI
 **Status:** Rough first-pass drafts complete (April 2026). Not yet reviewed. Not published.
 **Sibling project to:** *Computational Finance with AI* (Book 1)
 

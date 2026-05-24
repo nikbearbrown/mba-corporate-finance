@@ -99,7 +99,8 @@ The second tension is between the synergy realization data at four months post-c
 
 The memo presents two trajectories. The planned trajectory reflects the current run rate continuing. The risk-adjusted trajectory reflects synergy realization slowing materially after 12 months, as the literature suggests it frequently does. The next-decisions recommendations — payout level, capital structure pause, M&A deferral — are based on the risk-adjusted trajectory, not the optimistic one. If the planned trajectory materializes, Halverson will have been conservative and can accelerate returns. If the risk-adjusted trajectory materializes, Halverson will not have over-extended and will be positioned to absorb the shortfall. Optionality runs in one direction here. The conservative base is the correct base.
 
-<!-- → [CHART: Dual-trajectory line chart for Cardinal synergy realization — x-axis: months post-close (0 to 36); y-axis: cumulative synergy realization as % of total synergy case. Planned trajectory (straight-line extrapolation of current run rate). Risk-adjusted trajectory (same pace through month 12, then material slowdown reflecting integration resistance). Key decision points — payout review, M&A gate, capital structure reassessment — marked as vertical lines. Reader should see that the recommendations are keyed to the risk-adjusted line, not the optimistic one.] -->
+![Dual-trajectory line chart for Cardinal synergy realization ](images/15-the-capstone-an-integrated-cfo-recommendation-fig-01.png)
+*Figure 15.1 — Dual-trajectory line chart for Cardinal synergy realization *
 
 The third tension is the most likely to generate discussion at the board meeting. Adding more debt now would increase the tax shield and potentially fund a smaller acquisition before the targets move. The CEO's pipeline is real. The targets may not be available in 18 months.
 
@@ -291,3 +292,20 @@ Who was Joseph Schumpeter, and how does his integrated theory — *creative dest
 
 What changes? What gets better? What gets worse?
 
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 15.1 — Dual-trajectory line chart for Cardinal synergy realization 
+
+Create a standalone D3 v7 HTML file for Figure Dual-trajectory line chart for Cardinal synergy realization . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Dual-trajectory line chart for Cardinal synergy realization — x-axis: months post-close (0 to 36); y-axis: cumulative synergy realization as % of total synergy case. Planned trajectory (straight-line extrapolation of current run rate). Risk-adjusted trajectory (same pace through month 12, then material slowdown reflecting integration resistance). Key decision points — payout review, M&A gate, capital structure reassessment — marked as vertical lines. Reader should see that the recommendations are keyed to the risk-adjusted line, not the optimistic one.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font 
+
+> Reference implementation: `d3/15-the-capstone-an-integrated-cfo-recommendation-fig-01.html`

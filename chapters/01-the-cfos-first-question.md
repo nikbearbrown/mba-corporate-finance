@@ -10,7 +10,8 @@ When you learn to analyze a firm — in an MBA program, from a textbook, from a 
 
 That is a real kind of finance. It is useful. The trouble is that there is a second kind — the kind practiced by the people inside the firm, sitting in the CFO's office, with the actual cash position, the actual covenant language, the actual board dynamics — and the two kinds are not the same problem in different clothes. They are genuinely different problems. The confusing part is that the textbook treats them as one thing.
 
-<!-- → [INFOGRAPHIC: two-column diagram contrasting the outside-analyst view (public data sources: EDGAR, earnings releases, market prices → model → cross-reference verification) with the inside-analyst view (people, processes, spreadsheets, institutional memory → calls → ownership verification) — student should see that the verification loop is structurally different, not just quantitatively messier] -->
+![Two-column diagram contrasting the outside-analyst view (public data](images/01-the-cfos-first-question-fig-01.png)
+*Figure 1.1 — Two-column diagram contrasting the outside-analyst view (public data*
 
 This chapter is about what happens when you fall into the gap between them on your third Tuesday on the job.
 
@@ -66,7 +67,8 @@ Now I want to give you the underlying theory, because you need the outline of it
 
 In 1958, Franco Modigliani and Merton Miller proved something that still feels surprising: in a world without taxes, bankruptcy costs, or information asymmetries, the way a firm finances its assets doesn't affect the firm's total value. If Halverson is worth $500M as an unleveraged firm, it's worth $500M with 50% leverage. The source of the $50M for Plant 4 doesn't change what Plant 4 is worth. The pie — the total value created by the firm's assets — is the same size regardless of how you slice it into debt and equity claims.
 
-<!-- → [INFOGRAPHIC: M&M "same pie" visual — identical circle representing firm value, sliced two ways (all equity vs. mixed debt/equity) — label should make explicit that total area is unchanged; student should see that the claim is about total value, not about how the claims are distributed] -->
+![M&M "same pie" visual ](images/01-the-cfos-first-question-fig-02.png)
+*Figure 1.2 — M&M "same pie" visual *
 
 This is a clean and important result. It is also obviously not a description of the world Halverson operates in. But before we add back all the complications, it's worth sitting with the pure result for a moment, because it tells you something real: the *prima facie* case for caring about capital structure at all has to rest on the ways the world differs from M&M's frictionless world. Taxes. Distress. Information. Those are the three complications, and they account for essentially all of the content in a modern capital structure course.
 
@@ -76,7 +78,8 @@ What's pushing back is the cost of financial distress. If Halverson takes on mor
 
 So the trade-off is: more debt means more tax shield (good) and more distress risk (bad). The optimal capital structure sits where the marginal benefit of additional tax shield equals the marginal cost of additional distress risk. Where exactly that balance sits depends on the specific firm — how stable its cash flows are, how cyclical its business is, how much debt it already carries, what the credit market is charging right now.
 
-<!-- → [CHART: trade-off theory curve — x-axis: debt level, y-axis: firm value; three lines: (1) M&M with taxes (upward sloping), (2) PV of distress costs (accelerating downward), (3) net firm value showing the interior optimum — student should see where the optimum sits and understand why 100% debt is suboptimal even with a tax shield] -->
+![Trade-off theory curve ](images/01-the-cfos-first-question-fig-03.png)
+*Figure 1.3 — Trade-off theory curve *
 
 For Halverson — an industrial company with relatively stable cash flows and conservative existing leverage — the preliminary case favors debt at this scale. The tax shield is real and the distress risk, at $50M additional leverage on top of a healthy balance sheet, is modest. But "preliminary case" is not a memo. The numbers need to be run.
 
@@ -246,3 +249,36 @@ Who was Donaldson Brown, and how does his work designing the DuPont financial co
 
 What changes? What gets better? What gets worse?
 
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 1.1 — Two-column diagram contrasting the outside-analyst view (public data
+
+Create a standalone D3 v7 HTML file for Figure Two-column diagram contrasting the outside-analyst view (public data. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: two-column diagram contrasting the outside-analyst view (public data sources: EDGAR, earnings releases, market prices → model → cross-reference verification) with the inside-analyst view (people, processes, spreadsheets, institutional memory → calls → ownership verification) — student should see that the verification loop is structurally different, not just quantitatively messier. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/01-the-cfos-first-question-fig-01.html`
+
+---
+
+### Figure 1.2 — M&M "same pie" visual 
+
+Create a standalone D3 v7 HTML file for Figure M&M "same pie" visual . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: M&M "same pie" visual — identical circle representing firm value, sliced two ways (all equity vs. mixed debt/equity) — label should make explicit that total area is unchanged; student should see that the claim is about total value, not about how the claims are distributed. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/01-the-cfos-first-question-fig-02.html`
+
+---
+
+### Figure 1.3 — Trade-off theory curve 
+
+Create a standalone D3 v7 HTML file for Figure Trade-off theory curve . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: trade-off theory curve — x-axis: debt level, y-axis: firm value; three lines: (1) M&M with taxes (upward sloping), (2) PV of distress costs (accelerating downward), (3) net firm value showing the interior optimum — student should see where the optimum sits and understand why 100% debt is suboptimal even with a tax shield. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/01-the-cfos-first-question-fig-03.html`

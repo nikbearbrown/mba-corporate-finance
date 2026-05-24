@@ -52,7 +52,8 @@ This creates an explicit trade-off. The tax shield benefit grows roughly linearl
 
 $$V_L = V_U + PV(\text{tax shield}) - PV(\text{expected distress costs})$$
 
-<!-- → [CHART: two-curve trade-off diagram — horizontal axis: debt-to-capital ratio 0% to 100%; vertical axis: present value added — curve 1: PV of tax shield, rising roughly linearly from zero; curve 2: PV of expected distress costs, flat near zero until ~40% D/C then rising sharply; curve 3: net value added (curve 1 minus curve 2), rising to a peak around 30–40% D/C then declining; peak labeled "trade-off optimum"; the 100% debt point labeled to show net value added is negative — student should see why the optimum is interior, not at a corner] -->
+![Two-curve trade-off diagram ](images/08-capital-structure-in-the-real-world-fig-01.png)
+*Figure 8.1 — Two-curve trade-off diagram *
 
 For stable, profitable firms with tangible assets — Halverson fits this description — the trade-off optimum falls around 25–40% debt-to-capital. Halverson's existing debt weight is 30%. This is not coincidence.
 
@@ -86,7 +87,8 @@ Debt second. Debt prices are less sensitive to firm-specific information than eq
 
 Equity last. New equity carries the largest information cost. Issue it only when the first two sources are genuinely exhausted.
 
-<!-- → [INFOGRAPHIC: pecking order hierarchy — vertical stack of three tiers labeled from top to bottom: (1) Internal funds — "no signal, cheapest", (2) Debt — "moderate signal, moderate cost", (3) Equity — "strongest signal, most expensive"; arrows on the right showing "information cost increases" going down and "preference order" going up — student should see the ordering as driven by signal content, not just dollar cost] -->
+![Pecking order hierarchy ](images/08-capital-structure-in-the-real-world-fig-02.png)
+*Figure 8.2 — Pecking order hierarchy *
 
 The pecking order is a different theory from the trade-off theory, and the difference matters. The trade-off theory says firms target a specific leverage ratio — the ratio at which marginal tax benefits equal marginal distress costs. The pecking order says firms do not target a ratio at all; they use the cheapest financing source available each time they need capital, and the leverage ratio is whatever accumulates from those choices.
 
@@ -269,3 +271,28 @@ Who was Adolf A. Berle, and how does his 1932 analysis of the modern corporation
 
 What changes? What gets better? What gets worse?
 
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 8.1 — Two-curve trade-off diagram 
+
+Create a standalone D3 v7 HTML file for Figure Two-curve trade-off diagram . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: two-curve trade-off diagram — horizontal axis: debt-to-capital ratio 0% to 100%; vertical axis: present value added — curve 1: PV of tax shield, rising roughly linearly from zero; curve 2: PV of expected distress costs, flat near zero until ~40% D/C then rising sharply; curve 3: net value added (curve 1 minus curve 2), rising to a peak around 30–40% D/C then declining; peak labeled "trade-off optimum"; the 100% debt point labeled to show net value added is negative — student should see why the optimum is interior, not at a corner. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/08-capital-structure-in-the-real-world-fig-01.html`
+
+---
+
+### Figure 8.2 — Pecking order hierarchy 
+
+Create a standalone D3 v7 HTML file for Figure Pecking order hierarchy . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: pecking order hierarchy — vertical stack of three tiers labeled from top to bottom: (1) Internal funds — "no signal, cheapest", (2) Debt — "moderate signal, moderate cost", (3) Equity — "strongest signal, most expensive"; arrows on the right showing "information cost increases" going down and "preference order" going up — student should see the ordering as driven by signal content, not just dollar cost. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/08-capital-structure-in-the-real-world-fig-02.html`

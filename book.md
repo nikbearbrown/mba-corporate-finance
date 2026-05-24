@@ -1,7 +1,7 @@
 # Corporate Finance with AI
 
 **Working title:** Corporate Finance with AI
-**Author:** Nik Bear Brown
+**Author:** Humanitarians AI
 **Sibling project to:** Computational Finance with AI (Book 1)
 
 ## Audience

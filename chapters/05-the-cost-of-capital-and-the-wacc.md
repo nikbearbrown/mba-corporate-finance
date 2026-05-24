@@ -19,7 +19,8 @@ The second meaning is a hurdle rate the firm uses for investment decisions. When
 
 The third meaning is the weighted average of debt and equity costs. Most firms use both, in proportions reflecting their capital structure. The weighted average of these two costs, adjusted for the tax deductibility of interest, is the WACC.
 
-<!-- → [INFOGRAPHIC: triangle diagram with three nodes labeled "Provider Required Return," "Hurdle Rate," and "WACC" — arrows connecting all three with a note at center reading "aligned in theory, drift in practice" — student should see that the three meanings are distinct concepts that a healthy firm keeps synchronized] -->
+![Triangle diagram with three nodes labeled "Provider Required](images/05-the-cost-of-capital-and-the-wacc-fig-01.png)
+*Figure 5.1 — Triangle diagram with three nodes labeled "Provider Required*
 
 In the textbook treatment, all three meanings collapse into one: the WACC is the hurdle rate, and the hurdle rate equals what providers require. In practice they can drift apart. A firm whose stated WACC is 8% but whose investors actually require 11% is systematically mispricing its investments — taking on projects that destroy value while believing it is creating it. The CFO's job is to keep the three aligned. You cannot do that if you treat the WACC as a number someone else computes and puts in a footnote.
 
@@ -254,3 +255,20 @@ Who was Fischer Black, and how does his 1972 *zero-beta CAPM* — extending Shar
 
 What changes? What gets better? What gets worse?
 
+## Prompts
+
+Use these prompts with Claude to generate interactive D3 v7 versions of the
+figures in this chapter. Each produces a standalone HTML file you can open
+in a browser and modify freely.
+
+**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
+your Claude project context before using these prompts. They define the stack,
+naming conventions, color system, and typography the figures use.
+
+---
+
+### Figure 5.1 — Triangle diagram with three nodes labeled "Provider Required
+
+Create a standalone D3 v7 HTML file for Figure Triangle diagram with three nodes labeled "Provider Required. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: triangle diagram with three nodes labeled "Provider Required Return," "Hurdle Rate," and "WACC" — arrows connecting all three with a note at center reading "aligned in theory, drift in practice" — student should see that the three meanings are distinct concepts that a healthy firm keeps synchronized. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
+
+> Reference implementation: `d3/05-the-cost-of-capital-and-the-wacc-fig-01.html`
