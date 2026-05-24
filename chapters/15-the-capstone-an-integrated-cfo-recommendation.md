@@ -291,21 +291,3 @@ Who was Joseph Schumpeter, and how does his integrated theory — *creative dest
 - Add a constraint: "Answer as if you're writing the case for treating the CFO's integrated recommendation as a creative act, not a calculation"
 
 What changes? What gets better? What gets worse?
-
-## Prompts
-
-Use these prompts with Claude to generate interactive D3 v7 versions of the
-figures in this chapter. Each produces a standalone HTML file you can open
-in a browser and modify freely.
-
-**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
-your Claude project context before using these prompts. They define the stack,
-naming conventions, color system, and typography the figures use.
-
----
-
-### Figure 15.1 — Dual-trajectory line chart for Cardinal synergy realization 
-
-Create a standalone D3 v7 HTML file for Figure Dual-trajectory line chart for Cardinal synergy realization . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Dual-trajectory line chart for Cardinal synergy realization — x-axis: months post-close (0 to 36); y-axis: cumulative synergy realization as % of total synergy case. Planned trajectory (straight-line extrapolation of current run rate). Risk-adjusted trajectory (same pace through month 12, then material slowdown reflecting integration resistance). Key decision points — payout review, M&A gate, capital structure reassessment — marked as vertical lines. Reader should see that the recommendations are keyed to the risk-adjusted line, not the optimistic one.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font 
-
-> Reference implementation: `d3/15-the-capstone-an-integrated-cfo-recommendation-fig-01.html`

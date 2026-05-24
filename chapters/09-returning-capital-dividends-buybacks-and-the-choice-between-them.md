@@ -298,29 +298,3 @@ Who was Gardiner C. Means, and how does his empirical work on corporate dividend
 - Add a constraint: "Answer as if you're writing the case for a buyback over a dividend in a board-room recommendation"
 
 What changes? What gets better? What gets worse?
-
-## Prompts
-
-Use these prompts with Claude to generate interactive D3 v7 versions of the
-figures in this chapter. Each produces a standalone HTML file you can open
-in a browser and modify freely.
-
-**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
-your Claude project context before using these prompts. They define the stack,
-naming conventions, color system, and typography the figures use.
-
----
-
-### Figure 9.1 — Stylized event-study chart showing average stock price response
-
-Create a standalone D3 v7 HTML file for Figure Stylized event-study chart showing average stock price response. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Stylized event-study chart showing average stock price response around dividend cut announcements — x-axis: days relative to announcement (−10 to +10); y-axis: cumulative abnormal return. Sharp negative return on day 0, modest partial recovery over subsequent days. Intended to make the "signal overwhelms the arithmetic" claim concrete and quantitative.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
-
-> Reference implementation: `d3/09-returning-capital-dividends-buybacks-and-the-choice-between-them-fig-01.html`
-
----
-
-### Figure 9.2 — Dual-axis line chart 
-
-Create a standalone D3 v7 HTML file for Figure Dual-axis line chart . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: Dual-axis line chart — x-axis: years (illustrative cycle, roughly 2005–2020); left y-axis: aggregate S&P 500 buyback volume ($B); right y-axis: market index level. The two lines should move together, peaking near 2007 and 2018, troughing near 2009 and 2020. Intended to make the pro-cyclical buyback timing pattern visible and striking rather than abstract.. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
-
-> Reference implementation: `d3/09-returning-capital-dividends-buybacks-and-the-choice-between-them-fig-02.html`

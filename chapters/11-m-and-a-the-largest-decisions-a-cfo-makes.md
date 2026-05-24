@@ -230,29 +230,3 @@ Who was Edith Penrose, and how does her 1959 *Theory of the Growth of the Firm* 
 - Add a constraint: "Answer as if you're writing the case against a strategically-attractive but managerially-overstretched acquisition"
 
 What changes? What gets better? What gets worse?
-
-## Prompts
-
-Use these prompts with Claude to generate interactive D3 v7 versions of the
-figures in this chapter. Each produces a standalone HTML file you can open
-in a browser and modify freely.
-
-**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
-your Claude project context before using these prompts. They define the stack,
-naming conventions, color system, and typography the figures use.
-
----
-
-### Figure 11.1 — Wheel diagram showing the five prior-chapter tools (firm
-
-Create a standalone D3 v7 HTML file for Figure Wheel diagram showing the five prior-chapter tools (firm. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: wheel diagram showing the five prior-chapter tools (firm reading, cash flow projection, cost of capital, capital structure, payout policy) as spokes converging on a central hub labeled "M&A valuation" — student should see Chapter 11 as the integration point for the book's analytical toolkit, not a standalone topic. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
-
-> Reference implementation: `d3/11-m-and-a-the-largest-decisions-a-cfo-makes-fig-01.html`
-
----
-
-### Figure 11.2 — Deal value waterfall 
-
-Create a standalone D3 v7 HTML file for Figure Deal value waterfall . Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: deal value waterfall — left bar: Cardinal standalone value $550M; middle segment: synergy value after haircuts $250M split into two equal halves labeled "seller's share $125M" and "Halverson's share $125M"; right bar: Halverson maximum walk-away price $800M; horizontal line at $700M labeled "offer price"; gap between offer and walk-away labeled "Halverson's margin of safety $100M" — student should see how the offer price sits in the bargaining range and how much room exists before the deal stops making sense for Halverson. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font split.
-
-> Reference implementation: `d3/11-m-and-a-the-largest-decisions-a-cfo-makes-fig-02.html`

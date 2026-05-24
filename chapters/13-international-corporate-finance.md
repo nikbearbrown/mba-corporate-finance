@@ -262,21 +262,3 @@ Who was Susan Strange, and how does her work on the *political economy of intern
 - Add a constraint: "Answer as if you're writing the case for treating FX exposure as a strategic, not just operational, decision"
 
 What changes? What gets better? What gets worse?
-
-## Prompts
-
-Use these prompts with Claude to generate interactive D3 v7 versions of the
-figures in this chapter. Each produces a standalone HTML file you can open
-in a browser and modify freely.
-
-**Prerequisites:** Load `brutalist/CLAUDE.md` and `brutalist/DESIGN.md` into
-your Claude project context before using these prompts. They define the stack,
-naming conventions, color system, and typography the figures use.
-
----
-
-### Figure 13.1 — Two parallel paths to the same dollar NPV
-
-Create a standalone D3 v7 HTML file for Figure Two parallel paths to the same dollar NPV. Use the CDN https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js, inline CSS, ResizeObserver redraw, SVG role="img", aria-labelledby, title, and desc. Build the figure from this structural brief: two parallel paths to the same dollar NPV — left path labeled "Approach 1": peso cash flows → peso discount rate (WACC + CRP + inflation adjustment) → peso NPV → convert at today's spot rate → dollar NPV; right path labeled "Approach 2": peso cash flows → convert each year at forward rates → dollar cash flows → dollar WACC → dollar NPV; both paths converge at the same dollar NPV box; a red arrow and warning label marks a third path: "peso cash flows + dollar WACC = wrong" — student should see the two correct routes as parallel and the error path as a unit-mixing shortcut. Use the described data shape and labels; when exact values are not supplied, use plausible illustrative values that preserve the relationships in the brief. Use a zero baseline for bars or areas, direct labels where possible, and annotations named in the brief. Use only DESIGN.md color variables and the required serif/mono font 
-
-> Reference implementation: `d3/13-international-corporate-finance-fig-01.html`
