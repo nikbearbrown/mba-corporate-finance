@@ -1,4 +1,11 @@
 # Chapter 5 — The Cost of Capital and the WACC
+
+## TL;DR
+
+- A number that looks precise and isn't, sitting atop inputs that could move it by a hundred basis points without anyone being wrong.
+- The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A number that looks precise and isn't, sitting atop inputs that could move it by a hundred basis points without anyone being wrong.*
 
 Maya, drafting her cover note for Diane on Friday morning, types: *"The project's NPV at the firm WACC of 8% is positive."* She stops. Where did 8% come from?
@@ -232,8 +239,7 @@ Run with `python analysis/05-wacc.py --ticker [TICKER]`.
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Fischer Black** was co-developing the option-pricing apparatus, *and* — less famously — extending CAPM into the *zero-beta model* in 1972, which is the foundational case for how a firm's cost of capital is actually estimated when borrowing rates differ from the textbook risk-free rate decades before most people had heard of the cost of capital and the weighted average cost of capital (WACC). Here's a prompt to find out more — and then make it better.
 
 ![Fischer Black, c. 1980s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/fischer-black.jpg)

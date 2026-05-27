@@ -1,5 +1,12 @@
 # Chapter 1 — The CFO's First Question
 
+
+## TL;DR
+
+- The hardest part of a calculation is knowing what you're actually calculating.
+- The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The hardest part of a calculation is knowing what you're actually calculating.*
 
 ---
@@ -226,8 +233,7 @@ Format the output as a markdown document `01-decision-frame.md`. Be honest about
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Donaldson Brown** was designing the financial control system at DuPont in the 1910s and at General Motors in the 1920s — including the *DuPont identity* every CFO still asks first about return on equity decades before most people had heard of the CFO's first question and the financial-control framing that produces it. Here's a prompt to find out more — and then make it better.
 
 ![Donaldson Brown, c. 1920s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/donaldson-brown.jpg)

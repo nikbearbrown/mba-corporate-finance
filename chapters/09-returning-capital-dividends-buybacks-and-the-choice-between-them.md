@@ -1,5 +1,12 @@
 # Chapter 9 — Returning Capital: Dividends, Buybacks, and the Choice Between Them
 
+
+## TL;DR
+
+- The question is not what to do with the cash — the question is whose cash it is.
+- The chapter moves through Why the Form Shouldn't Matter, What a Dividend Actually Is, What a Buyback Actually Is, The Free Cash Flow Problem, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The question is not what to do with the cash — the question is whose cash it is.*
 
 ---
@@ -276,8 +283,7 @@ Produce `09-payout-policy.md` containing:
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Gardiner C. Means** was documenting in the 1930s — at the same time as his co-author Berle — the empirical patterns of corporate dividend policy and the way managers use distributions as signals to a market they cannot fully control decades before most people had heard of returning capital through dividends and buybacks, and the choice between them. Here's a prompt to find out more — and then make it better.
 
 ![Gardiner C. Means, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/gardiner-c-means.jpg)

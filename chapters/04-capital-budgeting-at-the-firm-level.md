@@ -1,5 +1,12 @@
 # Chapter 4 — Capital Budgeting at the Firm Level
 
+
+## TL;DR
+
+- A number that can't be questioned isn't a number — it's a prayer.
+- The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A number that can't be questioned isn't a number — it's a prayer.*
 
 ---
@@ -237,8 +244,7 @@ The script runs with `python analysis/04-budget-portfolio.py --budget [DOLLARS] 
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Joel Dean** was publishing *Capital Budgeting* in 1951 — the foundational text that brought NPV and IRR out of the journals and into corporate practice decades before most people had heard of capital budgeting at the firm level, with NPV as the primary decision rule. Here's a prompt to find out more — and then make it better.
 
 ![Joel Dean, c. 1950s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/joel-dean.jpg)

@@ -1,5 +1,12 @@
 # Chapter 3 — Working Capital Is Where the Cash Lives
 
+
+## TL;DR
+
+- The most important number in this book is measured in days, and almost nobody outside of treasury has heard of it.
+- The chapter moves through The Capital Nobody Talks About, What Working Capital Actually Is, The Cash Conversion Cycle, The Arithmetic of Improvement, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The most important number in this book is measured in days, and almost nobody outside of treasury has heard of it.*
 
 ---
@@ -332,8 +339,7 @@ Produce `03-working-capital.md` containing:
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **John Hicks** was publishing *Value and Capital* in 1939 — including the *liquidity preference* framework that explains why firms hold cash even when cash earns less than other assets decades before most people had heard of working capital management and the structural reasons firms hold the liquidity they do. Here's a prompt to find out more — and then make it better.
 
 ![John Hicks, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/john-hicks.jpg)

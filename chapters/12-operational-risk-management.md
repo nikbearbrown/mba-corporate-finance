@@ -1,5 +1,12 @@
 # Chapter 12 — Operational Risk Management
 
+
+## TL;DR
+
+- Hedging cannot create value in a perfect world — which is precisely why it can create value in this one.
+- The chapter moves through The Irrelevance Baseline, Why Hedging Actually Creates Value, The Cost Side, Halverson's Actual Exposures, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *Hedging cannot create value in a perfect world — which is precisely why it can create value in this one.*
 
 ---
@@ -260,8 +267,7 @@ Produce `12-risk-register.md` containing:
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Karl Borch** was founding modern actuarial science as a quantitative discipline in the 1960s and 1970s — particularly his theorem that determines, mathematically, how much risk a firm should retain versus transfer through insurance decades before most people had heard of operational risk management and the retain-vs-transfer decision. Here's a prompt to find out more — and then make it better.
 
 ![Karl Borch, c. 1970s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/karl-borch.jpg)

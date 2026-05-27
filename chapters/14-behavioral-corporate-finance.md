@@ -1,4 +1,11 @@
 # Chapter 14 — Behavioral Corporate Finance
+
+## TL;DR
+
+- The patterns that feel like good judgment are the ones that do the most damage.
+- The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The patterns that feel like good judgment are the ones that do the most damage.*
 
 Late autumn. The Cardinal acquisition closed in September. Plant 4 is six months into construction. Halverson's stock has outperformed its sector by twelve percent year-to-date. Everything is going well.
@@ -236,8 +243,7 @@ Produce `14-debiasing.md` containing:
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Daniel Bernoulli** was publishing the *Exposition of a New Theory on the Measurement of Risk* in 1738 — the foundational treatment of expected utility, the St. Petersburg paradox, and the gap between mathematical expected value and actual human decision-making under uncertainty decades before most people had heard of behavioral corporate finance and the systematic deviations from rational-actor models. Here's a prompt to find out more — and then make it better.
 
 ![Daniel Bernoulli, c. 1750. AI-generated portrait based on a public domain engraving (Wikimedia Commons).](images/daniel-bernoulli.jpg)

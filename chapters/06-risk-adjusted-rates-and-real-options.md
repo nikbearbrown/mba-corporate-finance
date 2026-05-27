@@ -1,5 +1,12 @@
 # Chapter 6 — Risk-Adjusted Rates and Real Options
 
+
+## TL;DR
+
+- Maya's NPV is wrong — not in the arithmetic, but in the question it answers.
+- The chapter moves through The Wrong Rate, Finding the Right Rate, The Future Isn't Locked, Real Options, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *Maya's NPV is wrong — not in the arithmetic, but in the question it answers.*
 
 ---
@@ -324,8 +331,7 @@ Run with `python analysis/06-real-options.py --portfolio analysis/04-portfolio-r
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Irving Fisher** was publishing *The Theory of Interest* in 1930 — the foundational treatment of how rational actors trade present consumption against uncertain future cash flows, the structural ancestor of every risk-adjusted discount rate and every real-option valuation decades before most people had heard of risk-adjusted rates and real options. Here's a prompt to find out more — and then make it better.
 
 ![Irving Fisher, c. 1920s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/irving-fisher.jpg)

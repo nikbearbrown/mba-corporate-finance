@@ -1,4 +1,11 @@
 # Chapter 2 — Reading the Firm from Inside
+
+## TL;DR
+
+- The same numbers, read by someone who knows where they came from.
+- The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The same numbers, read by someone who knows where they came from.*
 
 There is a thing that happens when you sit next to the person who signs the filing.
@@ -259,8 +266,7 @@ Save as `02-inside-read.md`. The verification loop here is *ownership-based* —
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Mary Harris Smith** was becoming, in 1919, the first woman chartered accountant in the world — over four decades after she had already been doing the work without being credentialed for it decades before most people had heard of reading a firm's books from inside, with the discipline that distinguishes a manager's view from an outside analyst's. Here's a prompt to find out more — and then make it better.
 
 ![Mary Harris Smith, c. 1920. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/mary-harris-smith.jpg)

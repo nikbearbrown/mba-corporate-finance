@@ -1,4 +1,11 @@
 # Chapter 8 — Capital Structure in the Real World
+
+## TL;DR
+
+- When every CFO in America ignores the formula, either they're all wrong or the formula is missing something.
+- The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *When every CFO in America ignores the formula, either they're all wrong or the formula is missing something.*
 
 At the end of Chapter 7 we arrived at a clean result. Every dollar of debt adds value through the tax shield. Add them up and the formula says the optimal capital structure is 100% debt — borrow as much as the bond market will give you, pay no taxes, maximize firm value.
@@ -248,8 +255,7 @@ Produce `08-target-structure.md` containing:
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Adolf A. Berle** was co-authoring *The Modern Corporation and Private Property* in 1932 with Gardiner Means — the foundational analysis of what *capital structure in the real world* actually looks like once ownership and control separate decades before most people had heard of real-world capital structure, the agency problem, and the determinants of debt-equity choice that MM rules out by assumption. Here's a prompt to find out more — and then make it better.
 
 ![Adolf A. Berle, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/adolf-a-berle.jpg)

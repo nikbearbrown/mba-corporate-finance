@@ -1,5 +1,12 @@
 # Chapter 13 — International Corporate Finance
 
+
+## TL;DR
+
+- There is a temptation, when first encountering international finance, to treat it as a fundamentally different subject from what came before — a separate discipline with its own rules, its own logic, its own...
+- The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The framework doesn't change. The variables do.*
 
 ---
@@ -240,8 +247,7 @@ Run with `python analysis/13-international.py --ticker [TICKER]`.
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Susan Strange** was founding *international political economy* as a discipline in the 1970s and 1980s — including her account of *casino capitalism* and *mad money*, the foundational analyses of how international financial flows actually move and what they cost the firms exposed to them decades before most people had heard of international corporate finance, currency exposure, and the political economy of cross-border capital. Here's a prompt to find out more — and then make it better.
 
 ![Susan Strange, c. 1980s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/susan-strange.jpg)

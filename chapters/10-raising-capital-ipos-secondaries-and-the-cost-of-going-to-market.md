@@ -1,5 +1,12 @@
 # Chapter 10 — Raising Capital: IPOs, Secondaries, and the Cost of Going to Market
 
+
+## TL;DR
+
+- The visible cost is never the real cost.
+- The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The visible cost is never the real cost.*
 
 ---
@@ -222,8 +229,7 @@ Produce `10-issuance-plan.md` containing:
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Maggie Lena Walker** was founding *St. Luke Penny Savings Bank* in 1903 — becoming the first African-American woman to charter and run a US bank, raising capital from communities the established financial system was designed to exclude decades before most people had heard of raising capital through public markets and the costs of going to them. Here's a prompt to find out more — and then make it better.
 
 ![Maggie Lena Walker, c. 1910. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/maggie-lena-walker.jpg)

@@ -1,5 +1,12 @@
 # Chapter 7 — Capital Structure Theory: The Modigliani-Miller World
 
+
+## TL;DR
+
+- The most useful theorems are the ones that describe a world that doesn't exist.
+- The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The most useful theorems are the ones that describe a world that doesn't exist.*
 
 ---
@@ -246,8 +253,7 @@ Produce `07-mm-baseline.md` containing:
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Merton Miller** was co-publishing the *Modigliani-Miller theorem* in 1958 — the result that, under specific frictionless-market assumptions, the value of a firm is independent of how it is financed decades before most people had heard of capital structure theory in the Modigliani-Miller world. Here's a prompt to find out more — and then make it better.
 
 ![Merton Miller, c. 1990. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/merton-miller.jpg)

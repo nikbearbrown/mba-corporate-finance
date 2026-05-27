@@ -1,4 +1,11 @@
 # Chapter 11 — M&A: The Largest Decisions a CFO Makes
+
+## TL;DR
+
+- The empirical record on acquisitions is sobering, and CFOs keep ignoring it — which tells you something important about both the record and the CFOs.
+- The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *The empirical record on acquisitions is sobering, and CFOs keep ignoring it — which tells you something important about both the record and the CFOs.*
 
 The target's name is Cardinal Flow Systems. It is a privately held competitor to Halverson, headquartered in Cincinnati, with $400M in revenue, $80M in EBITDA, and a market position in chemical-processing flow control where Halverson is weak. Halverson's CEO has been talking informally with Cardinal's founder-owner for six months. The conversations have reached the point where both sides are exchanging financial data under NDA. Diane has asked Maya to lead the financial diligence and produce the valuation memo.
@@ -208,8 +215,7 @@ Scaffold `analysis/11-ma-valuation.py`:
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Edith Penrose** was publishing *The Theory of the Growth of the Firm* in 1959 — the foundational case that a firm's growth is bounded by its *managerial capacity*, not by its capital, and that this constraint is what determines when an acquisition creates value and when it destroys it decades before most people had heard of M&A and the question of when a deal creates rather than destroys value. Here's a prompt to find out more — and then make it better.
 
 ![Edith Penrose, c. 1960s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/edith-penrose.jpg)

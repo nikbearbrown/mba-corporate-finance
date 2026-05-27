@@ -1,5 +1,12 @@
 # Chapter 15 — The Capstone: An Integrated CFO Recommendation
 
+
+## TL;DR
+
+- A memo without decision triggers is not a recommendation — it is a forecast in disguise.
+- The chapter moves through Capital Allocation: What the Portfolio Has to Earn, Capital Structure: The Option Value of Restraint, Payout Policy: The Signal in the Increase, Risk Position: Naming What Could Go Wrong, and related ideas.
+- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
+
 *A memo without decision triggers is not a recommendation — it is a forecast in disguise.*
 
 ---
@@ -269,8 +276,7 @@ In **Cowork**, assemble `report/15-board-memo.md`:
 
 ---
 
-## AI Wayback Machine
-
+##  AI Wayback Machine
 The ideas in this chapter didn't appear from nowhere. **Joseph Schumpeter** was publishing *The Theory of Economic Development* in 1911 — the foundational integrated account of how capital decisions, entrepreneurial activity, and *creative destruction* interact at the level of a firm and an economy decades before most people had heard of an integrated CFO recommendation that holds every prior chapter's tools at once. Here's a prompt to find out more — and then make it better.
 
 ![Joseph Schumpeter, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/joseph-schumpeter.jpg)
