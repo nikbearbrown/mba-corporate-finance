@@ -1,13 +1,8 @@
 # Chapter 1 — The CFO's First Question
-
-
-## TL;DR
-
-- The hardest part of a calculation is knowing what you're actually calculating.
-- The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas.
-- Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop.
-
 *The hardest part of a calculation is knowing what you're actually calculating.*
+
+![Two-column diagram contrasting the outside-analyst view (public data)](images/01-the-cfos-first-question-fig-01.png)
+*Figure 1.1 — Two-column diagram contrasting the outside-analyst view (public data, models, cross-referenced estimates) with the inside-analyst view (live accounts, covenant language, institutional memory).*
 
 ---
 
@@ -16,9 +11,6 @@ Here is something your finance education probably didn't tell you, and I want to
 When you learn to analyze a firm — in an MBA program, from a textbook, from a CFA curriculum — you are learning to look at firms from the outside. You learn to read a 10-K. You learn to build a discounted cash flow model. You learn to calculate a weighted-average cost of capital. You are, implicitly, sitting in the position of an analyst at some investment bank, looking at a company across the street, armed with public data and your models.
 
 That is a real kind of finance. It is useful. The trouble is that there is a second kind — the kind practiced by the people inside the firm, sitting in the CFO's office, with the actual cash position, the actual covenant language, the actual board dynamics — and the two kinds are not the same problem in different clothes. They are genuinely different problems. The confusing part is that the textbook treats them as one thing.
-
-![Two-column diagram contrasting the outside-analyst view (public data](images/01-the-cfos-first-question-fig-01.png)
-*Figure 1.1 — Two-column diagram contrasting the outside-analyst view (public data*
 
 This chapter is about what happens when you fall into the gap between them on your third Tuesday on the job.
 
@@ -36,14 +28,6 @@ I want to understand *why* none of that tells her what to write, because this is
 
 The question "should we fund Plant 4 with debt or equity?" sounds like a single question. It isn't. It's doing five different jobs at once, and the job that sounds most obvious — which financing instrument to use — is actually the least interesting of the five.
 
-| Job | The real question it asks | What data answers it | Owner of that data inside Halverson |
-|---|---|---|---|
-| **Capital allocation** | Does Plant 4 clear our hurdle rate vs. competing uses of the cash? | Project IRR vs. firm WACC; portfolio of competing projects | FP&A (Priya) |
-| **Capital structure** | What does our current debt-to-capital ratio allow us to do without breaking the rating? | Existing leverage; rating-agency thresholds; covenant cushion | Treasury |
-| **Cost of capital** | What rate should we discount the project at — firm WACC or project-specific? | Project risk profile relative to firm; comparable-firm betas | FP&A + Treasury |
-| **Distribution / payout** | If we lever up for Plant 4, what does that constrain about the buyback program? | Forward cash projections; current authorization | CFO directly |
-| **Operational** | What does the engineering / operations team actually believe about Plant 4's economics? | Construction timeline, ramp curve, labor and supply chain risk | Plant 4 program manager |
-
 There's the cost job: debt costs interest, equity costs dilution and expected future returns, so you'd prefer the cheaper one, all else equal. But all else is never equal. The cost depends on Halverson's existing capital structure, the current tax rate, what the credit market is pricing right now, how the equity market feels about Halverson specifically, and how the board feels about issuing shares this quarter. "Which costs less" is not a number you look up. It's a calculation that requires a specific firm, a specific moment, and specific market conditions.
 
 There's the risk job: debt must be repaid on a fixed schedule whether Plant 4 succeeds or not. Equity has no such obligation. If the plant underperforms, equity holders are disappointed; debt holders are in line to be paid regardless. The financing choice changes the risk profile of the entire firm, not just the project.
@@ -53,6 +37,8 @@ There's the signaling job: when a public company issues equity, the market tends
 There's the flexibility job: a new debt issuance typically comes with covenants — restrictions on additional borrowing, on dividends, on acquisitions. Equity has no covenants but permanently changes the ownership structure. The choice today constrains the option space available tomorrow.
 
 And then, finally, there's the literal job: which instrument? Bank loan, bond offering, equity offering, retained earnings, convertibles? Each has its own execution timeline, transaction costs, investor appetite.
+
+<!-- → [TABLE: five-job decomposition of Maya's assignment — columns: job name, the real question it asks, what data answers it, who inside Halverson owns that data — serves as the structural anchor for the whole chapter's argument that one question hides five] -->
 
 Five jobs. One sentence. Before you can compute anything useful, you have to understand what you're actually being asked. This is the first thing the inside view teaches you.
 
@@ -74,8 +60,8 @@ Now I want to give you the underlying theory, because you need the outline of it
 
 In 1958, Franco Modigliani and Merton Miller proved something that still feels surprising: in a world without taxes, bankruptcy costs, or information asymmetries, the way a firm finances its assets doesn't affect the firm's total value. If Halverson is worth $500M as an unleveraged firm, it's worth $500M with 50% leverage. The source of the $50M for Plant 4 doesn't change what Plant 4 is worth. The pie — the total value created by the firm's assets — is the same size regardless of how you slice it into debt and equity claims.
 
-![M&M "same pie" visual ](images/01-the-cfos-first-question-fig-02.png)
-*Figure 1.2 — M&M "same pie" visual *
+![M&M "same pie" visual](images/01-the-cfos-first-question-fig-02.png)
+*Figure 1.2 — M&M "same pie" visual: two pie charts of identical size, one sliced into two pieces (debt / equity), one unsliced, with the label "Same value, different claims."*
 
 This is a clean and important result. It is also obviously not a description of the world Halverson operates in. But before we add back all the complications, it's worth sitting with the pure result for a moment, because it tells you something real: the *prima facie* case for caring about capital structure at all has to rest on the ways the world differs from M&M's frictionless world. Taxes. Distress. Information. Those are the three complications, and they account for essentially all of the content in a modern capital structure course.
 
@@ -85,8 +71,10 @@ What's pushing back is the cost of financial distress. If Halverson takes on mor
 
 So the trade-off is: more debt means more tax shield (good) and more distress risk (bad). The optimal capital structure sits where the marginal benefit of additional tax shield equals the marginal cost of additional distress risk. Where exactly that balance sits depends on the specific firm — how stable its cash flows are, how cyclical its business is, how much debt it already carries, what the credit market is charging right now.
 
-![Trade-off theory curve ](images/01-the-cfos-first-question-fig-03.png)
-*Figure 1.3 — Trade-off theory curve *
+![Trade-off theory curve](images/01-the-cfos-first-question-fig-03.png)
+*Figure 1.3 — Trade-off theory curve: firm value on the y-axis, leverage on the x-axis. The curve rises with the tax shield, peaks at the optimal capital structure, then falls as distress costs accumulate.*
+
+<!-- → [INFOGRAPHIC: annotated version of the trade-off curve with callouts for (1) where Halverson currently sits, (2) the direction Plant 4 debt would move them, (3) the distress-cost threshold — makes the abstract curve concrete for this specific firm] -->
 
 For Halverson — an industrial company with relatively stable cash flows and conservative existing leverage — the preliminary case favors debt at this scale. The tax shield is real and the distress risk, at $50M additional leverage on top of a healthy balance sheet, is modest. But "preliminary case" is not a memo. The numbers need to be run.
 
@@ -104,11 +92,7 @@ The second beat is calculating transparently. No black-box outputs. Every number
 
 The third beat is the sanity check. If the WACC comes out at 4%, Maya knows that's wrong before she checks the math, because Halverson's bonds currently trade at a yield above that, and equity holders expect more than the cost of debt. The sanity check is cheap insurance against a catastrophic error. It costs almost nothing and catches the mistakes that matter most — not arithmetic errors but structural errors in the setup.
 
-| Beat | The question it answers | What failure looks like at Halverson | What success looks like |
-|---|---|---|---|
-| **Idea** | What is the question I have been asked? | Maya answers "should we fund Plant 4?" with a generic capital-budgeting analysis when Diane needed a debt-vs-equity recommendation | Maya restates the brief in writing back to Diane: *"You're asking whether to fund the $50M expansion with debt or equity, given the Cardinal advance, by Friday."* |
-| **Execute** | What is the load-bearing analysis for that question? | Maya runs three analyses and chooses the one that confirms the answer the team is leaning toward | Maya names *one* analysis whose result, by itself, would change the recommendation — and runs it carefully |
-| **Verify** | What would I want in writing if my recommendation turned out to be wrong? | The memo cites the FP&A WACC of 8% without naming the inputs or the date of last update | The memo carries the WACC inputs, the assumption sensitivities, and a *what-would-change-our-mind* sentence the audit committee can audit |
+<!-- → [TABLE: three-beat method as a decision matrix — columns: beat name, the question it answers, what failure looks like at Halverson, what success looks like — parallels the five-job table above and gives students a compact reference for both frameworks] -->
 
 These three beats are not a method for any particular financing decision. They are the discipline of someone whose recommendation will be taken to the board. The board will ask questions. The questions will be pointed. The answers need to be true.
 
@@ -136,7 +120,7 @@ The gap between inside-the-firm and outside-the-firm finance is not a gap in tec
 
 And the memo goes to the board, where it will be read by people who will ask harder questions than any exam.
 
-The textbook can give you the theory. This book tries to do one additional thing: describe the practices — input verification, transparent calculation, honest risk-naming — that connect the theory to a memo you would actually sign your name to.
+The textbook can give you the theory. What I'm trying to do in these pages is something additional: describe the practices — input verification, transparent calculation, honest risk-naming — that connect the theory to a memo you would actually sign your name to.
 
 Maya's Friday memo will recommend debt financing, contingent on the covenant analysis from the treasurer and the EBITDA verification from operations. Whether it goes to the board on the 15th is not her decision. The analysis is.
 
@@ -186,7 +170,7 @@ That is the CFO's first question. Not which instrument. Not what the model says.
 
 ---
 
-###  LLM Exercise — Chapter 1: The CFO's First Question
+### LLM Exercise — Chapter 1: The CFO's First Question
 
 **Project:** Halverson's Board Memo, Built Across the Course
 **What you're building this chapter:** The firm you'll analyze across the next fourteen chapters, Maya's *third Tuesday* version of the specification problem, and a decision frame that names the question precisely.
@@ -233,7 +217,8 @@ Format the output as a markdown document `01-decision-frame.md`. Be honest about
 
 ---
 
-##  AI Wayback Machine
+### AI Wayback Machine
+
 The ideas in this chapter didn't appear from nowhere. **Donaldson Brown** was designing the financial control system at DuPont in the 1910s and at General Motors in the 1920s — including the *DuPont identity* every CFO still asks first about return on equity decades before most people had heard of the CFO's first question and the financial-control framing that produces it. Here's a prompt to find out more — and then make it better.
 
 ![Donaldson Brown, c. 1920s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/donaldson-brown.jpg)
