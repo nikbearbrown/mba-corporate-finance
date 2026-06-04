@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 2560" width="1600" height="2560" preserveAspectRatio="xMidYMid meet" shape-rendering="geometricPrecision">
+  <g id="background"><rect x="0" y="0" width="1600" height="2560" fill="#F5C518"/></g>
+  <g id="symbol-fragments" transform="rotate(-11, 800, 830)">
+    <polygon points="501,698 579,713 565,764 500,763" fill="#111111"/>
+    <polygon points="223,186 395,208 375,279 219,271" fill="#111111"/>
+    <polygon points="1577,200 1833,201 1804,307 1575,289" fill="#111111"/>
+    <polygon points="650,410 848,423 835,543 649,534" fill="#111111"/>
+    <polygon points="593,208 692,223 666,270 585,249" fill="#111111"/>
+    <polygon points="286,1151 375,1165 365,1275 272,1259" fill="#111111"/>
+    <polygon points="249,1457 507,1469 487,1604 235,1581" fill="#111111"/>
+    <polygon points="469,416 559,437 553,463 460,461" fill="#111111"/>
+    <polygon points="713,908 803,928 801,1056 704,1035" fill="#D62B2B"/>
+  </g>
+  <g id="title-letterforms">
+    <text x="120" y="1350" font-family="Arial Black, Arial, sans-serif" font-size="250" font-weight="900" letter-spacing="0" fill="#111111" textLength="1300" lengthAdjust="spacingAndGlyphs">CORPORATE</text>
+    <text x="120" y="1608" font-family="Arial Black, Arial, sans-serif" font-size="250" font-weight="900" letter-spacing="0" fill="#D62B2B" textLength="1300" lengthAdjust="spacingAndGlyphs">FINANCE</text>
+    <text x="120" y="1866" font-family="Arial Black, Arial, sans-serif" font-size="250" font-weight="900" letter-spacing="0" fill="#111111">WITH</text>
+    <text x="120" y="2124" font-family="Arial Black, Arial, sans-serif" font-size="250" font-weight="900" letter-spacing="0" fill="#111111">AI</text>
+  </g>
+</svg>
