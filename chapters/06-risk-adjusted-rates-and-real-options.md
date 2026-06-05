@@ -337,6 +337,10 @@ The ideas in this chapter didn't appear from nowhere. **Irving Fisher** was publ
 ![Irving Fisher, c. 1920s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/irving-fisher.jpg)
 *Irving Fisher, c. 1920s. AI-generated portrait based on a public domain photograph.*
 
+![Irving Fisher](../images/irving-fisher-cz3.png)
+
+*Puppet Art by [Nik Bear Brown](https://www.nikbearbrown.com/).*
+
 **Run this:**
 
 ```

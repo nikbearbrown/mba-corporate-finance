@@ -282,6 +282,10 @@ The ideas in this chapter didn't appear from nowhere. **Joseph Schumpeter** was 
 ![Joseph Schumpeter, c. 1940s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/joseph-schumpeter.jpg)
 *Joseph Schumpeter, c. 1940s. AI-generated portrait based on a public domain photograph.*
 
+![Joseph Schumpeter](../images/joseph-schumpeter-5ru.png)
+
+*Puppet Art by [Nik Bear Brown](https://www.nikbearbrown.com/).*
+
 **Run this:**
 
 ```

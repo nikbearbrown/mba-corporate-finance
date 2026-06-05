@@ -249,6 +249,10 @@ The ideas in this chapter didn't appear from nowhere. **Daniel Bernoulli** was p
 ![Daniel Bernoulli, c. 1750. AI-generated portrait based on a public domain engraving (Wikimedia Commons).](images/daniel-bernoulli.jpg)
 *Daniel Bernoulli, c. 1750. AI-generated portrait based on a public domain engraving.*
 
+![Daniel Bernoulli](../images/daniel-bernoulli-0j0.png)
+
+*Puppet Art by [Nik Bear Brown](https://www.nikbearbrown.com/).*
+
 **Run this:**
 
 ```

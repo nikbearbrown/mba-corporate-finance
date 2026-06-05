@@ -245,6 +245,10 @@ The ideas in this chapter didn't appear from nowhere. **Fischer Black** was co-d
 ![Fischer Black, c. 1980s. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/fischer-black.jpg)
 *Fischer Black, c. 1980s. AI-generated portrait based on a public domain photograph.*
 
+![Fischer Black](../images/fischer-black-4o2.png)
+
+*Puppet Art by [Nik Bear Brown](https://www.nikbearbrown.com/).*
+
 **Run this:**
 
 ```

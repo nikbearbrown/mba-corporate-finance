@@ -1,38 +1,43 @@
 # Corporate Finance with AI
 
-**Publisher:** Humanitarians AI  
-**Edition:** 2026  
-**License:** CC BY 4.0 for text; AI+1 marks and cover design are trademarks of Humanitarians AI.
+AI+1, Hands on. Domain specific. No generic prompts.
 
-## Overview
+**Author:** Humanitarians AI Incorporated  
+**Publisher:** Humanitarians AI Incorporated, a 501(c)(3) nonprofit organization  
+**Copyright:** Copyright © 2026 Humanitarians AI Incorporated. All rights reserved.  
+**Edition:** 2026
 
-Corporate Finance with AI is part of the AI+1 series from Humanitarians AI. The book asks what a Corporate Finance with AI practitioner can do with AI while preserving the human judgment, accountability, and domain expertise that the tool cannot supply.
+## Summary
 
-The book's front matter explains the copyright, CC BY 4.0 license, distribution model, AI and errata disclosure, and the Humanitarians AI publishing context. The introduction frames the reader's path through the chapters: where AI helps, where it fails, and how to keep the boundary between execution and judgment visible.
+*Corporate Finance with AI* is a structured textbook for readers who need a clear path through the subject rather than a loose collection of explanations. It begins with Chapter 1 — The CFO's First Question, moves through 15 core chapters, and ends with Chapter 15 — The Capstone: An Integrated CFO Recommendation.
+
+AI matters to *Corporate Finance with AI* because the modern textbook is no longer only a static container. It is also part of a learning system: searchable, remixable, explainable, and increasingly connected to tools such as Medhavy. For Humanitarians AI books, the relevant question is not whether AI can replace the learner or the teacher. It cannot. The useful question is what AI can make easier to inspect: definitions, worked examples, misconceptions, practice sequences, alternate explanations, and the structure of an argument. This book treats AI as infrastructure for open, public-interest learning infrastructure. The chapters should still stand on their own as readable prose, but they are also designed to be legible to an intelligent textbook system.
 
 ## Table of Contents
 
-- [Causal Inference with Case Studies](chapters/00-preface-and-toc.md)
-- [Chapter 1 — The CFO's First Question](chapters/01-the-cfos-first-question.md)
-- [Chapter 2 — Reading the Firm from Inside](chapters/02-reading-the-firm-from-inside.md)
-- [Chapter 3 — Working Capital Is Where the Cash Lives](chapters/03-working-capital-is-where-the-cash-lives.md)
-- [Chapter 4 — Capital Budgeting at the Firm Level](chapters/04-capital-budgeting-at-the-firm-level.md)
-- [Chapter 5 — The Cost of Capital and the WACC](chapters/05-the-cost-of-capital-and-the-wacc.md)
-- [Chapter 6 — Risk-Adjusted Rates and Real Options](chapters/06-risk-adjusted-rates-and-real-options.md)
-- [Chapter 7 — Capital Structure Theory: The Modigliani-Miller World](chapters/07-capital-structure-theory-the-modigliani-miller-world.md)
-- [Chapter 8 — Capital Structure in the Real World](chapters/08-capital-structure-in-the-real-world.md)
-- [Chapter 9 — Returning Capital: Dividends, Buybacks, and the Choice Between Them](chapters/09-returning-capital-dividends-buybacks-and-the-choice-between-them.md)
-- [Chapter 10 — Raising Capital: IPOs, Secondaries, and the Cost of Going to Market](chapters/10-raising-capital-ipos-secondaries-and-the-cost-of-going-to-market.md)
-- [Chapter 11 — M&A: The Largest Decisions a CFO Makes](chapters/11-m-and-a-the-largest-decisions-a-cfo-makes.md)
-- [Chapter 12 — Operational Risk Management](chapters/12-operational-risk-management.md)
-- [Chapter 13 — International Corporate Finance](chapters/13-international-corporate-finance.md)
-- [Chapter 14 — Behavioral Corporate Finance](chapters/14-behavioral-corporate-finance.md)
-- [Chapter 15 — The Capstone: An Integrated CFO Recommendation](chapters/15-the-capstone-an-integrated-cfo-recommendation.md)
+- **Chapter 1: Chapter 1 — The CFO's First Question.** - The hardest part of a calculation is knowing what you're actually calculating. - The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas. - Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks...
+- **Chapter 2: Chapter 2 — Reading the Firm from Inside.** - The same numbers, read by someone who knows where they came from. - The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas. - Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks...
+- **Chapter 3: Chapter 3 — Working Capital Is Where the Cash Lives.** - The most important number in this book is measured in days, and almost nobody outside of treasury has heard of it. - The chapter moves through The Capital Nobody Talks About, What Working Capital Actually Is, The Cash Conversion Cycle, The...
+- **Chapter 4: Chapter 4 — Capital Budgeting at the Firm Level.** - A number that can't be questioned isn't a number — it's a prayer. - The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas. - Read it for the main argument, the vocabulary it introduces, and the practical judgment it...
+- **Chapter 5: Chapter 5 — The Cost of Capital and the WACC.** - A number that looks precise and isn't, sitting atop inputs that could move it by a hundred basis points without anyone being wrong. - The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas. - Read it for the main...
+- **Chapter 6: Chapter 6 — Risk-Adjusted Rates and Real Options.** - Maya's NPV is wrong — not in the arithmetic, but in the question it answers. - The chapter moves through The Wrong Rate, Finding the Right Rate, The Future Isn't Locked, Real Options, and related ideas. - Read it for the...
+- **Chapter 7: Chapter 7 — Capital Structure Theory: The Modigliani-Miller World.** - The most useful theorems are the ones that describe a world that doesn't exist. - The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas. - Read it for the main argument, the vocabulary it introduces, and the practical judgment...
+- **Chapter 8: Chapter 8 — Capital Structure in the Real World.** - When every CFO in America ignores the formula, either they're all wrong or the formula is missing something. - The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas. - Read it for the main argument, the vocabulary it introduces,...
+- **Chapter 9: Chapter 9 — Returning Capital: Dividends, Buybacks, and the Choice Between Them.** - The question is not what to do with the cash — the question is whose cash it is. - The chapter moves through Why the Form Shouldn't Matter, What a Dividend Actually Is, What a Buyback Actually Is, The Free Cash...
+- **Chapter 10: Chapter 10 — Raising Capital: IPOs, Secondaries, and the Cost of Going to Market.** - The visible cost is never the real cost. - The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas. - Read it for the main argument, the vocabulary it introduces, and the practical judgment it asks you to develop. *The...
+- **Chapter 11: Chapter 11 — M&A: The Largest Decisions a CFO Makes.** - The empirical record on acquisitions is sobering, and CFOs keep ignoring it — which tells you something important about both the record and the CFOs. - The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas. - Read it for...
+- **Chapter 12: Chapter 12 — Operational Risk Management.** - Hedging cannot create value in a perfect world — which is precisely why it can create value in this one. - The chapter moves through The Irrelevance Baseline, Why Hedging Actually Creates Value, The Cost Side, Halverson's Actual Exposures, and related...
+- **Chapter 13: Chapter 13 — International Corporate Finance.** - There is a temptation, when first encountering international finance, to treat it as a fundamentally different subject from what came before — a separate discipline with its own rules, its own logic, its own... - The chapter moves through Warm-up, Application,...
+- **Chapter 14: Chapter 14 — Behavioral Corporate Finance.** - The patterns that feel like good judgment are the ones that do the most damage. - The chapter moves through Warm-up, Application, Synthesis, Challenge, and related ideas. - Read it for the main argument, the vocabulary it introduces, and the practical...
+- **Chapter 15: Chapter 15 — The Capstone: An Integrated CFO Recommendation.** - A memo without decision triggers is not a recommendation — it is a forecast in disguise. - The chapter moves through Capital Allocation: What the Portfolio Has to Earn, Capital Structure: The Option Value of Restraint, Payout Policy: The Signal in...
 
-## Copyright and License
+## Files
 
-Copyright © 2026 Humanitarians AI. The text is licensed under CC BY 4.0. See [LICENSE.md](LICENSE.md) for full terms, including trademark restrictions for AI+1 marks and cover design.
+- `chapters/00-frontmatter.md` — title page, copyright, dedication, and preface
+- `chapters/00-introduction.md` — roadmap and book-level AI note
+- `chapters/99-back-matter.md` — acknowledgments, author note, references placeholder, and Medhavy note
+- `LICENSE.md` — rights and reuse terms
 
-## Errata
+## Medhavy
 
-Errata, corrections, and suspected mistakes may be submitted through [humanitarians.ai](https://www.humanitarians.ai/).
+This book is prepared for Kindle, online publication, and integration with Medhavy: https://www.medhavy.com/

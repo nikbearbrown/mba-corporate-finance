@@ -259,6 +259,10 @@ The ideas in this chapter didn't appear from nowhere. **Merton Miller** was co-p
 ![Merton Miller, c. 1990. AI-generated portrait based on a public domain photograph (Wikimedia Commons).](images/merton-miller.jpg)
 *Merton Miller, c. 1990. AI-generated portrait based on a public domain photograph.*
 
+![Merton Miller](../images/merton-miller-62o.png)
+
+*Puppet Art by [Nik Bear Brown](https://www.nikbearbrown.com/).*
+
 **Run this:**
 
 ```
